@@ -1,3 +1,3 @@
-# Headline
+# Headline /docs
 
 > An awesome project.

@@ -1,0 +1,11 @@
+- `Ver 2.5`
+- [SharePoint](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template?csf=1)
+- Download Frame
+  - [Currys Frame](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_Currys.html?csf=1)
+  - [PCWorld Frame](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_PCWorld.html?csf=1)
+  - [PCWBusiness Frame](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_PCWBusiness.html?csf=1)
+
+- Download Sections
+  - [Basic](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Sections_CPCW.html?csf=1)
+  - [`VML`](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_VML.html?csf=1&e=6a3403629d8740949ef87c5ba6f963af)
+  -  [PCWBusiness](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Sections_PCWBusiness.html?csf=1&e=6a3403629d8740949ef87c5ba6f963af)

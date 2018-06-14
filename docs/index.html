@@ -6,14 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      // The DOM element to be mounted on initialization. It can be a CSS selector string or an actual HTMLElement.
+      el: '#app',
       name: '',
-      repo: ''
+      repo: '',
+      // Maximum Table of content level.
+      maxLevel: 4,
+      // Loads navbar from the Markdown file _navbar.md if true, or else from the path specified.
+      loadNavbar: 'nav.md',
+      // Loads sidebar from the Markdown file _sidebar.md if true, or else from the path specified.
+      loadSidebar: 'sidebar.md',
+      // Activate the cover feature. If true, it will load from _coverpage.md.
+      coverpage: 'cover.md',
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

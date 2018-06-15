@@ -118,7 +118,7 @@ li input[type='checkbox'] {
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.app-nav a:hover {
+.app-nav a:hover, side-nav a:hover {
   color: var(--theme-color, #42b983);
 }
 .app-nav a.active {
@@ -160,7 +160,7 @@ li input[type='checkbox'] {
   white-space: nowrap;
 }
 .app-nav li ul a {
-  display: block;
+  /* display: block; */ display: inline-block;
   font-size: inherit;
   margin: 0;
   padding: 0;

@@ -1,2 +1,39 @@
+
+.fas { width: 2em; text-align: center; }
+.top-nav li a { margin: 6px 0 6px 15px; }
+/* Table tweaks for changelog.md */
 .table-current th code { background-color:#FF3366; }
 .table-archived th code { background-color:#34495e; }
+.table-archived { padding-bottom: 50px; }
+
+.table-current, .table-archived { line-height: 1.6em; }
+.table-current td, .table-archived td { width: 100em; word-break: break-word; hyphens: auto; }
+.table-current td code, .table-archived td code { word-break: keep-all; background-color: var(--theme-color, #42b983);
+border-radius: 3px; color: #feffff; font-family: inherit; font-size: inherit; font-weight: 600; margin: 0 2px; padding: 1px 6px; line-height: inherit; white-space: pre-wrap; }
+
+.list-style-none { list-style: none; }
+.text-decoration-none, .text-decoration-none a, a i { text-decoration: none; }
+
+
+
+/* Tweak coverpage.md */
+.coverpage-title { color: #feffff; }
+
+
+/* Tweak Sidebar */
+.xxx code { color: white;
+    background-color: #FF3366;
+    padding: 4px 4px;
+    border-radius: 4px;
+    width: auto;
+    text-align: center;}
+
+    .sidebar ul li:hover > a {
+  border-right: 2px solid;
+  color: var(--theme-color, #FF3366);
+  font-weight: inherit; }
+
+  .sidebar-nav hr {   border: none;
+    border-bottom: 1px solid #eee;
+    margin: 1em 3em; }
+}

@@ -1,6 +1,4 @@
-<!-- _coverpage.md -->
-
-<h1 class="coverpage-title"> &lt;th&gt;eory —of— &lt;th&gt;emplate <small>Version 1.0</small></h1>
+<h1 class="coverpage-title"> paTHer </h1>
 
 
 <!--
@@ -10,7 +8,7 @@
 -->
 
 <p>
-<a class="button -flower center fa-github" href="https://dixcar.github.io/" target="_blank">GitHub</a>
+<a class="button -flower center fa-github" href="https://github.com/DixCar/pather" target="_blank">GitHub</a>
 <a class="button-success fa-hand-o-down" href="#/?id=headline">Get Started</a>
 <a class="button-success fa-cloud-download" href="https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template?csf=1" target="_blank">SharePoint</a>
 </p>

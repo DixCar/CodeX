@@ -1,6 +1,7 @@
 - Getting started
-  - [Download 'Skeleton'](get_skeleton.md)
-  - [Download 'Modules'](get_modules.md)
+  - [Download 'Skeleton'](skeleton.md)
+    - [ChangeLog](changelog.md)
+  - [Download 'Modules'](modules.md)
 - Basic set-up for email campaign
   - [Initial 'Script'](x.md)
   - [PreHeader](x.md)

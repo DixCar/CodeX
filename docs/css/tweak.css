@@ -1,19 +1,26 @@
 
+/* .sidebar nav .top-nav */
+.sidebar nav .top-nav { padding: 10px 0px; background-color: #ececec; }
+.top-nav .version { color: #feffff; }
+.top-nav ul li a i { color: #42b983; }
+.top-nav .disable, .markdown-section .disable { color: #a7a7a7 !important; }
+
+
 .fas { width: 2em; text-align: center; }
-.top-nav li a { margin: 6px 0 6px 15px; }
+nav li { !important; line-height: 2em;}
+.sidebar nav { padding: 10px 0px;  }
 /* Table tweaks for changelog.md */
 .table-current th code { background-color:#FF3366; }
 .table-archived th code { background-color:#34495e; }
 .table-archived { padding-bottom: 50px; }
 
 .table-current, .table-archived { line-height: 1.6em; }
-.table-current td, .table-archived td { width: 100em; word-break: break-word; hyphens: auto; }
+.table-current td, .table-archived td { width: 100em; word-break: break-word; hyphens: auto; line-height: 1.6em; }
 .table-current td code, .table-archived td code { word-break: keep-all; background-color: var(--theme-color, #42b983);
-border-radius: 3px; color: #feffff; font-family: inherit; font-size: inherit; font-weight: 600; margin: 0 2px; padding: 1px 6px; line-height: inherit; white-space: pre-wrap; }
+border-radius: 3px; color: #feffff; font-family: inherit; font-size: inherit; font-weight: 600; margin: 0 2px; padding: 0px 6px; line-height: 1.4em; white-space: pre-wrap; display: inline-block; }
 
 .list-style-none { list-style: none; }
 .text-decoration-none, .text-decoration-none a, a i { text-decoration: none; }
-
 
 
 /* Tweak coverpage.md */

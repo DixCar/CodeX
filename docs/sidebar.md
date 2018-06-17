@@ -2,17 +2,16 @@
   - [Download](download.md)
   - [ChangeLog](changelog.md)
   - - -
-- HTML/AC basic setup
-  - [Initial 'Script'](initial_script.md)
+- HTML | AC basic setup
+  - [Initial Script](initial_script.md)
   - [PreHeader](pre_header.md)
-  - [Tracking links 'CPCW'](tracking_CPCW.md)
-  - [Tracking links 'PCWB'](tracking_PCWB.md)
-  - [Plain text 'AC'](plain_text.md)
+  - [Tracking links](tracking_links.md)
+  - [Plain text](plain_text.md)
   - - -
-- HTML/AC Dynamic Content
+- HTML | AC Dynamic Content
   - [Subject Line](subject_line.md)
   - [Pre Header](pre_header.md)
-  - [`Personalization Block` 'AC'](personalization_block.md)
+  - [Personalization Block](personalization_block.md)
   - - -
 - Markdown
   - [Typography](typography.md)

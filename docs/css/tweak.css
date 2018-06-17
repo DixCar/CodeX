@@ -24,8 +24,8 @@ border-radius: 3px; color: #feffff; font-family: inherit; font-size: inherit; fo
 
 
 /* Tweak coverpage.md */
-.coverpage-title { color: #feffff; }
-
+.ocver h1 { color: #feffff; font-size: 50rem;}
+.show { background: #091e3f !important;  }
 
 /* Tweak Sidebar */
 .xxx code { color: white;

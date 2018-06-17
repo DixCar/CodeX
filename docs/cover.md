@@ -1,7 +1,7 @@
 <h1 class="coverpage-title"> paTHer </h1>
 
 
-<!--
+<!---
 [GitHub](https://dixcar.github.io/)
 [Get Started](#headline)
 [SharePoint](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template?csf=1)
@@ -14,9 +14,8 @@
 </p>
 
 
-<!-- background image -->
+<!-- background image
 ![](_media/bg.png)
-
-<!-- background color
-![color](#F2E9E4)
 -->
+<!-- background color
+![color](#0a3b85)-->

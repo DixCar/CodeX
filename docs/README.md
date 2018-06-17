@@ -12,3 +12,5 @@
   ###### Subheader L6
 
   ####### 7
+
+# [Download](download) link to sidebar.md

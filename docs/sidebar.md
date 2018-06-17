@@ -3,14 +3,14 @@
   - [ChangeLog](changelog.md)
   - - -
 - HTML | AC basic setup
-  - [Initial Script](initial_script.md)
+  - [JS Script](initial_script.md)
   - [PreHeader](pre_header.md)
-  - [Tracking links](tracking_links.md)
+  - [Tracking Links](tracking_links.md)
   - [Plain text](plain_text.md)
   - - -
 - HTML | AC Dynamic Content
   - [Subject Line](subject_line.md)
-  - [Pre Header](pre_header.md)
+  - [PreHeader](pre_header.md)
   - [Personalization Block](personalization_block.md)
   - - -
 - Markdown

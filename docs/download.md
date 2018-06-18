@@ -4,7 +4,7 @@ Grab the latest Master Template. It's required access to SharePoint.
 
 #### Source RAW code
 
-<ul class="list-style-none text-decoration-none">
+<ul class="list-of-links list-style-none text-decoration-none">
   <li>[<i class="fas fa-cloud-download-alt"></i> SharePoint](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template?csf=1)</li>
   <li>[<i class="fas fa-code-branch"></i> BitBucket](https://bitbucket.org/dixonscarphone/master-templates/src)</li>
 </ul>
@@ -13,7 +13,7 @@ Grab the latest Master Template. It's required access to SharePoint.
 
 #### Skeleton Framework
 
-<ul class="list-style-none text-decoration-none">
+<ul class="list-of-links list-style-none text-decoration-none">
   [<i class="fas fa-save"></i> Currys](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_Currys.html?csf=1)</li>
   <li class="af icon">[<i class="fas fa-save"></i> PCWorld](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_PCWorld.html?csf=1)</li>
   <li class="af icon">[<i class="fas fa-save"></i> PCWBusiness](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_PCWBusiness.html?csf=1)</li>
@@ -27,7 +27,7 @@ Grab the latest Master Template. It's required access to SharePoint.
 
 #### Sections/Modules
 
-<ul class="list-style-none text-decoration-none">
+<ul class="list-of-links list-style-none text-decoration-none">
   <li class="af icon">[<i class="fas fa-save"></i> CurrysPCWorld](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Sections_CPCW.html?csf=1)</li>
   <li class="af icon">[<i class="fas fa-save"></i> PCWBusiness](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Sections_PCWBusiness.html?csf=1&e=6a3403629d8740949ef87c5ba6f963af)</li>
   <li class="af icon">[<i class="fas fa-save"></i> VML](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_VML.html?csf=1&e=6a3403629d8740949ef87c5ba6f963af)</li>

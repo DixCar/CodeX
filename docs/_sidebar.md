@@ -1,7 +1,6 @@
 - <i class="fas fa-rocket"></i> Getting started
   - [Download](download.md)
   - [ChangeLog](changelog.md)
-  - [Workflow](workflow.md)
   - - -
 - <i class="fas fa-terminal"></i> HTML | AC settings
   - [JS Script](initial_script.md)
@@ -23,4 +22,7 @@
   - <li class="disable"> ~~3 COLUMN~~</li>
   - <li class="disable"> ~~4 COLUMN~~</li>
   - <li class="disable"> ~~SNIPPETS~~</li>
-- - -
+- Workflow
+  - [Naming Convention](naming_convention.md)
+  - [Tracking Categories](tracking categories.md)
+  - [Image Library](image_library.md)

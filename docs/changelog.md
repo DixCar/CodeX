@@ -1,8 +1,8 @@
-## ChangeLog
+# ChangeLog
 
 Find the latest and archived changes across all Master-Template files for Currys, PCWorld and PCWBusiness
 
-#### Latest update
+## Latest update
 
 <table class="table-current">
   <thead>
@@ -41,7 +41,7 @@ Find the latest and archived changes across all Master-Template files for Currys
 
 - - -
 
-#### Archived
+## Archived
 
 <table class="table-archived">
   <thead>
@@ -167,3 +167,5 @@ Find the latest and archived changes across all Master-Template files for Currys
     </tr>
   </tbody>
 </table>
+
+- - -

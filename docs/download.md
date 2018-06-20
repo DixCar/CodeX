@@ -4,7 +4,7 @@ Grab the latest Master Template.
 
 > Required access to SharePoint or BitBucket.
 
-## Skeleton // Framework
+## Skeleton .Framework
 
 <ul class="list-of-links list-style-none text-decoration-none">
   <li class="active-link">[<i class="fas fa-download"></i> Currys](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_Currys.html?csf=1)</li>
@@ -18,7 +18,7 @@ Grab the latest Master Template.
 
 - - -
 
-## Sections // Modules
+## Sections .Modules
 
 <ul class="list-of-links list-style-none text-decoration-none">
   <li class="active-link">[<i class="fas fa-download"></i> CurrysPCWorld](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Sections_CPCW.html?csf=1)</li>
@@ -30,7 +30,7 @@ Grab the latest Master Template.
 
 - - -
 
-#### Source // RAW code
+## Source code .RAW
 
 <ul class="list-of-links list-style-none text-decoration-none">
   <li>[<i class="fas fa-cloud-download-alt"></i> SharePoint](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template?csf=1)</li>

@@ -17,5 +17,5 @@
 <!-- background image
 ![](_media/bg.png)
 -->
-<!-- background color
-![color](#0a3b85)-->
+<!-- background color -->
+![color](#EFEFEF)

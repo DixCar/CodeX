@@ -56,7 +56,8 @@ body {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #34495e;
+  color: var(--reset-body-text);
+  background-color: color: var(--reset-body-bg);
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
   letter-spacing: 0;
@@ -111,26 +112,31 @@ li input[type='checkbox'] {
   list-style: none;
   margin: 0;
 }
-.app-nav a {
-  color: inherit;
+.app-nav a, .app-nav li  {
+  /* color: inherit; */
   font-size: 16px;
   text-decoration: none;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.app-nav a:hover {
+/* moved to tweak
+.app-nav a:hover, side-nav a:hover {
   color: var(--theme-color, #42b983);
 }
 .app-nav a.active {
   border-bottom: 2px solid var(--theme-color, #42b983);
   color: var(--theme-color, #42b983);
 }
+*/
 .app-nav li {
   display: inline-block;
   margin: 0 1rem;
   padding: 5px 0;
   position: relative;
 }
+.app-nav .version, .sidebar .version { color: white; background-color: #FF3366; padding: 4px 4px; border-radius: 4px; width:4em; text-align: center; }
+.x-nav del { color: #dcdcdc; }
+.sidebar .x-nav { padding: 20px 0px; background-color: #bfbfbf; }
 .app-nav li ul {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -143,7 +149,7 @@ li input[type='checkbox'] {
   overflow-y: auto;
   padding: 10px 0;
   position: absolute;
-  right: -15px;
+  /* right: 0px; */
   text-align: left;
   top: 100%;
   white-space: nowrap;
@@ -157,7 +163,7 @@ li input[type='checkbox'] {
   white-space: nowrap;
 }
 .app-nav li ul a {
-  display: block;
+  /* display: block; */ display: inline-block;
   font-size: inherit;
   margin: 0;
   padding: 0;
@@ -317,8 +323,8 @@ body.sticky .sidebar-toggle {
 }
 .markdown-section {
   margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 15px 40px 15px;
+  max-width: 94%;
+  /* padding: 30px; */
   position: relative;
 }
 .markdown-section > * {
@@ -332,7 +338,7 @@ body.sticky .sidebar-toggle {
 .markdown-section hr {
   border: none;
   border-bottom: 1px solid #eee;
-  margin: 2em 0;
+  margin: 3em 3em;
 }
 .markdown-section iframe {
   border: 1px solid #eee;
@@ -349,6 +355,7 @@ body.sticky .sidebar-toggle {
   border: 1px solid #ddd;
   font-weight: bold;
   padding: 6px 13px;
+  background: #dddddd;
 }
 .markdown-section td {
   border: 1px solid #ddd;
@@ -559,11 +566,13 @@ section.cover p {
 }
 section.cover h1 {
   color: inherit;
-  font-size: 2.5rem;
+  font-size: 5.0rem;
   font-weight: 300;
   margin: 0.625rem 0 2.5rem;
   position: relative;
   text-align: center;
+  font-weight: 600
+;;
 }
 section.cover h1 a {
   display: block;
@@ -712,7 +721,7 @@ body {
   padding-left: 20px;
 }
 .markdown-section blockquote p {
-  font-weight: 600;
+  /* font-weight: 600;*/
   margin-left: 0;
 }
 .markdown-section iframe {
@@ -722,9 +731,9 @@ body {
   color: #7f8c8d;
 }
 .markdown-section code {
-  background-color: #f8f8f8;
-  border-radius: 2px;
-  color: #e96900;
+  background-color: var(--theme-color, #42b983);
+  border-radius: 3px;
+  color: #feffff;
   font-family: 'Roboto Mono', Monaco, courier, monospace;
   font-size: 0.8rem;
   margin: 0 2px;

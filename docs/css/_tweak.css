@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+/* COLORS (variables) */
+:root {
+--theme:      #42b983;
+--white:      #FEFFFF;      --dark:     #34495e;
+--pink:       #FF3366;
+
+
+
+
+/* where to use? */
+
+--yellow:#E59900;
+--yellow-1:#FFAA00;
+--yellow-3:#FFFDFA;
+--orange:#FF6A00;
+--green: #42b983;
+--d-blue:#0055AA;
+--b-blue:#ADE6FF;
+--d-grey:#424242;
+--disable: #CECDC0;
+--b-grey:#dddddd;
+--grey-1:#EFEFEF;
+--black2:#1F0D21;
+--black1:#070707;
+--content-bg:#FFFDFA;
+
+
+
+
+/* RESET   color: var(--theme-color, #42b983); */
+--reset-body-text:        #666666;
+--reset-body-bg:#FDFDFC;
+}
+
+
+/* TOP NAV */
+.tweak-top-nav { background-color: var(--content-bg); padding: 20px 0px; margin: 0 auto; border-bottom: 1px solid; border-color: var(--grey-1); }
+.tweak-top-nav .version {}
+.tweak-top-nav .level-1 {}
+.tweak-top-nav .active {}
+.tweak-top-nav .disable {}
+
+
+  /* NAVBAR / links */
+  .app-nav {  }
+  .sidebar nav .top-nav { padding: 10px 0px; background-color: var(--dark); }
+  .top-nav .version, .top-nav .version:hover { color: var(--white); }
+  /* ... disable link and icon */
+
+  .nav-top-menu:hover { color: var(--pink); transition: 0.1s; }
+  .nav-top-menu-off { color: var(--disable); }
+
+  .top-nav ul li del, .top-nav .disable, .disable del { color: var(--disable); }
+  /* ... 1st level, 2nd level */
+  .top-nav li a { color: var(--reset-body-text); }
+  .top-nav li a:hover { color: var(--pink); transition: 0.1s; }
+  .app-nav li ul { width: auto; }
+  .top-nav li a:hover i, .top-nav .disable:hover i { color: var(--pink); transition: 0.1s; padding-left:3px; }
+
+  .app-nav a:hover, side-nav a:hover {
+    color: var(--theme-color,);
+  }
+
+
+  .app-nav a.active {
+    border-bottom: 2px solid var(--theme-color, #42b983);
+    color: var(--theme-color, #42b983);
+  }
+
+
+  nav li { line-height: 2em;}
+  .sidebar nav { padding: 10px 0px;  }
+
+
+
+.reset-body-text, .top-nav * { color: var(--reset-body-text); }
+.content { background-color: var(--reset-body-bg); overflow: auto; }
+.anchor span { color: var(--black2); }
+/* ... 324 vue */
+.markdown-section { padding: 5rem 2rem; }
+
+.sidebar .top-nav del, .sidebar .top-nav a { height: auto; padding: 0px; margin: 0px; display: inline-block; vertical-align: middle; width: 100%; }
+
+
+
+/* .sidebar nav .top-nav */
+
+
+/* FONT AWESOME (icon) / constant width issue fix */
+.fas { width: 2em; text-align: center; }
+
+
+/* download page */
+.list-of-links a { color: var(--green); }
+.list-of-links a:hover { color: var(--pink); transition: color 0.1s; }
+.text-decoration-none, .text-decoration-none a, a i { text-decoration: none; }
+.list-style-none { list-style: none; }
+.list-of-links a:hover i  { padding-left:3px; transition: 0.1s; color: var(--pink); }
+
+
+
+/* Table tweaks for changelog.md */
+
+/* Tweak coverpage.md */
+.ocver h1 { color: #feffff; font-size: 50rem;}
+.cover { background-color: var(--content-bg); }
+
+/* Tweak Sidebar */
+.xxx code { color: white;
+    background-color: var(--pink);
+    padding: 4px 4px;
+    border-radius: 4px;
+    width: auto;
+    text-align: center;}
+
+.sidebar ul li:hover > a { border-right: 2px solid; color: var(--pink); font-weight: inherit; }
+
+.sidebar-nav hr { border: none; border-bottom: 1px solid var(--grey-1); margin: 1em 3em; }

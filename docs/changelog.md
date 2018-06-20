@@ -1,4 +1,4 @@
-# ChangeLog
+## ChangeLog
 
 Find the latest and archived changes across all Master-Template files for Currys, PCWorld and PCWBusiness
 

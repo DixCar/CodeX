@@ -24,7 +24,7 @@ Both are use same parts to create tracking code.
 
 ###### How to edit?
 
-**`href="https://www.currys.co.uk/xxxx/"`** if is available always use SSL `https` and make sure is no `empty space` between `link` and `?`
+**`href="https://www.currys.co.uk/xxxx/"`** always it should be SSL protocol `https` and make sure is no `empty space` between `link` and `?`
 
 **`~COM~TVN~3NOM1~`** contains 3 parts; `page type`, `category`, `module` and each part is separated by `~`
 
@@ -32,7 +32,7 @@ Both are use same parts to create tracking code.
 
 **`_label="3NOM1"`** as above update it to follow your type of `module`
 
-**`<%@ include view='dixDIXtrackingCPCW1' %>`** and **`<%@ include view='dixDIXtrackingCPCW2' %>`** are parts of tracking populated by [Personalization Blocks](personalization_block) on Adobe Campaign
+**`<%@ include view='dixDIXtrackingCPCW1' %>`** and **`<%@ include view='dixDIXtrackingCPCW2' %>`** are parts of tracking populated by [Personalization Blocks](personalization_block) on send time within Adobe Campaign
 
 
 - - -

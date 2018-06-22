@@ -14,10 +14,13 @@
         --disable: #D3C9B3;
          --border: #EFEFEF;
          --gutter: #DDDDDD;
+
+     --blockquote: #FF8E8E;
+      --subheader: #FF8E8E;
+             --h6: #666666;
 /* delete if possible */
             --blk: #45317F;
-           --blockquote: #FF8E8E;
-           --subheader: #FF8E8E;
+
 }
 /* RESET */
 body { color: var(--reset-body-text), background-color: var(--reset-body-bg); }
@@ -26,32 +29,41 @@ code { border-radius: 3px; margin: 0 0px; padding: 4px 8px; white-space: pre-wra
 
 /* headings */
 h1 * { color: var(--theme-color) !important; }
-h4 *, h5 *, h6 * { color: var(--subheader) !important; }
+h4 *, h5 * { color: var(--subheader) !important; }
+h6 * { color: var(--h6) !important; }
+h2 code { color: var(--green) !important; background-color: var(--white)!important; border-color: var(--green) !important;}
+h2 code, h2 { font-size: 1.4rem !important; }
 
 /* Tables */
-table.tweak { padding-bottom: 50px; }
-table.tweak * { color: var(--reset-body-text); }
-table.tweak thead { background-color: var(--border); }
-.fw td { width: 100em; word-break: break-word; hyphens: auto; line-height: 1.6em; }
-table.tweak .active .version code { color: var(--white); background-color: var(--alert); }
-table.tweak .archive .version code { color: var(--white); background-color: var(--theme-color); }
+table.tweak { padding: 10px 0 50px 0; }
+table.nbp { padding: 10px 0 0 0; !important; }
+table.tweak * { color: var(--reset-body-text); word-break: break-word; hyphens: auto; line-height: 1.6em; }
+table.tweak thead * { background-color: var(--border); color: var(--reset-body-text); }
+.fw td { width: 100em;  }
+.hw td { width: 13rem; min-width: 13rem; max-width: 13rem; }
+table.active th.version code { color: var(--white); background-color: var(--alert); }
+table.archive th.version code { color: var(--white); background-color: var(--theme-color); }
 /* Tables... tweak styles */
-table.style strong { color: var(--theme-color); font-style: normal; }
+table.style > td strong { color: var(--theme-color); font-style: normal; }
 table.style em { color: var(--alert); font-style: normal; }
 
-
+/* markdown-section */
+.markdown-section p strong code, .markdown-section blockquote strong code, .markdown-section p a { color: var(--subheader) !important; }
+.markdown-section blockquote { margin-left: 2rem; }
 
 /* CHANGELOG / table: -current, -archive / word-wrap issue fix */
-.table-current th code {  }
 .table-archived th code { color: var(--theme-color); background-color: var(--disable1); }
-.table-archived { padding-bottom: 50px; }
+.table-archived { padding: 50px 0px; }
 .table-current, .table-archived { line-height: 1.6em; }
 .table-current td, .table-archived td { width: 100em; word-break: break-word; hyphens: auto; line-height: 1.6em; }
 .table-current td code, .table-archived td code, .table code, .markdown-section code { word-break: keep-all; background-color: var(--white); color: var(--theme-color); border:1px solid var(--border);
 border-radius: 3px; font-family: inherit; font-size: inherit; font-weight: 600; margin: 0 2px; padding: 0px 6px; line-height: 1.4em; white-space: pre-wrap; display: inline-block; }
 
 
-
+/* SIDEBAR.MD */
+/* tweak autopopulated h2 as link included <code> */
+.sidebar ul li a:hover * { color: var(--alert); }
+.sidebar ul li a code { font-size: inherit; font-weight: inherit; padding: 0 0; font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif; }
 
 
 
@@ -81,7 +93,7 @@ border-radius: 3px; font-family: inherit; font-size: inherit; font-weight: 600; 
 .markdown-section { padding: 5rem 2rem; width: 100%; max-width: 90%; }
 .gutter { border-left: 2px solid var(--gutter) !important; }
 
-.anchor:hover span::before { content: "\f105"; font-family: Font Awesome\ 5 Free; font-weight: 900; padding-right: 0px; transition: 1.3s; color: var(--disable); position: absolute; vertical-align: middle; padding-top:4px; left: 0px; }
+h2:hover span::before { content: "\f105"; font-family: Font Awesome\ 5 Free; font-weight: 900; padding-right: 0px; transition: 1.3s; color: var(--disable); position: absolute; vertical-align: middle; padding-top:4px; left: 0px; }
 .anchor:hover {text-decoration: none;}
 
 

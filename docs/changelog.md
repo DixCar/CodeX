@@ -4,10 +4,10 @@ Find the latest and archived changes across all Master-Template files for Currys
 
 ## Latest update
 
-<table class="table-current">
+<table class="tweak active fw">
   <thead>
     <tr>
-      <th>Version `2.5` 08.06.2018</th>
+      <th class="version">Version `2.5` 08.06.2018</th>
     </tr>
   </thead>
   <tbody>
@@ -43,10 +43,10 @@ Find the latest and archived changes across all Master-Template files for Currys
 
 ## Archived
 
-<table class="table-archived">
+<table class="tweak archive fw">
   <thead>
     <tr>
-      <th>Version `2.4` 04.05.2018</th>
+      <th class="version">Version `2.4` 04.05.2018</th>
     </tr>
   </thead>
   <tbody>
@@ -83,10 +83,10 @@ Find the latest and archived changes across all Master-Template files for Currys
   </tbody>
 </table>
 
-<table class="table-archived">
+<table class="tweak archive fw">
   <thead>
     <tr>
-      <th>Version `2.3` 23.02.2018</th>
+      <th class="version">Version `2.3` 23.02.2018</th>
     </tr>
   </thead>
   <tbody>
@@ -103,10 +103,10 @@ Find the latest and archived changes across all Master-Template files for Currys
   </tbody>
 </table>
 
-<table class="table-archived">
+<table class="tweak archive fw">
   <thead>
     <tr>
-      <th>Version `2.2` 23.02.2018</th>
+      <th class="version">Version `2.2` 23.02.2018</th>
     </tr>
   </thead>
   <tbody>
@@ -148,10 +148,10 @@ Find the latest and archived changes across all Master-Template files for Currys
   </tbody>
 </table>
 
-<table class="table-archived">
+<table class="tweak archive fw">
   <thead>
     <tr>
-      <th>Version `2.1` 30.01.2018</th>
+      <th class="version">Version `2.1` 30.01.2018</th>
     </tr>
   </thead>
   <tbody>

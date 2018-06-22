@@ -24,3 +24,5 @@
   - <li class="disable"> ~~4 COLUMN~~</li>
   - <li class="disable"> ~~SNIPPETS~~</li>
 - - -
+- Markdown Guides
+  - [Markdown usage](_markdown_examples.md)

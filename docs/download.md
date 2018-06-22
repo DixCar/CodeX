@@ -4,7 +4,7 @@ Grab the latest Master Template.
 
 > Required access to SharePoint or BitBucket.
 
-## Skeleton .Framework
+## Skeleton .Framework
 
 <ul class="list-of-links list-style-none text-decoration-none">
   <li class="active-link">[<i class="fas fa-download"></i> Currys](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_Skeleton_Currys.html?csf=1)</li>

@@ -1,5 +1,24 @@
 # Header 1 `code` *italic* **bold** / *`italic-code`* **bold-code**
 
+Paragraph text with examples of `code` and *italic* and **bold** and [link](tracking_links?id=link)
+
+``` md
+`code`
+*italic*
+**bold**
+[link](tracking_links?id=link)
+```
+
+Paragraph text with examples of *`code-italic`* and **`code-bold`** and *[link-italic](tracking_links?id=link)* and **[link-bold](tracking_links?id=link)**
+
+``` md
+*`code-italic`*
+**`code-bold`**
+*[link-italic](tracking_links?id=link)*
+**[link-bold](tracking_links?id=link)**
+```
+
+
 Only used to make a title of `page_name.md` e.g. `# Getting started`, `# Grid`
 
 The code for `sidebar.md`:

@@ -10,6 +10,7 @@
           --green: #42b983;
           --theme: #35B1FF;
           --alert: #FF7070;
+           --link: #FF7070;
 
         --disable: #D3C9B3;
          --border: #EFEFEF;
@@ -23,9 +24,46 @@
 
 }
 /* RESET */
-body { color: var(--reset-body-text), background-color: var(--reset-body-bg); }
+body { color: var(--reset-body-text); background-color: var(--reset-body-bg); /* font-family: 'Montserrat', sans-serif; font-family: 'Encode Sans Condensed', sans-serif; */ font-family: 'Nanum Gothic', sans-serif;
+ }
 
-code { border-radius: 3px; margin: 0 0px; padding: 4px 8px; white-space: pre-wrap; font-family: 'Roboto Mono', Monaco, courier, monospace; font-size: 0.8rem; }
+/*
+code, .markdown-section p em, .markdown-section p strong, .markdown-section p a { border-radius: 3px; margin: 0; padding: 4px 8px; white-space: pre-wrap; font-family: 'Roboto Mono', Monaco, courier, monospace; font-size: 0.8rem; }
+*/
+
+.markdown-section > p > code { -moz-osx-font-smoothing: initial; -webkit-font-smoothing: initial;
+  display: inline-block;
+  border-radius: 3px;
+  margin: 0;
+  padding: 4px 8px;
+font-family: 'Roboto Mono', Monaco, courier, monospace; font-size: 0.8rem;
+white-space: pre-wrap;
+color: var(--reset-body-text);
+}
+
+
+/*
+.markdown-section pre > code { border: none; }
+.markdown-section pre { padding: 0; }
+
+.markdown-section p { margin-top: 0.5em; line-height: 2em; }
+.markdown-section p em { color: var(--reset-body-text); letter-spacing: 0.05em; font-weight: normal; }
+.markdown-section p strong { color: var(--reset-body-text); letter-spacing: 0.05em; }
+
+.markdown-section p > a, table.tweak a { color: var(--link); cursor: help; }
+.markdown-section p > a::after, table.tweak a::after { content: "\f35d"; font-family: Font Awesome\ 5 Free; padding-left: 5px; display: inline-block; color: inherit; font-size: 0.5rem; vertical-align: top; cursor: help; }
+.markdown-section p a:hover, table.tweak a:hover { text-decoration-style: double; }
+
+.markdown-section p em code { color: var(--theme-color); letter-spacing: 0.05em; font-weight: normal; }
+.markdown-section p strong code { color: var(--theme-color); letter-spacing: 0.05em; }
+
+.markdown-section p code { word-break: keep-all; border: 1px solid var(--border);
+border-radius: 3px; font-family: inherit; font-size: inherit; font-weight: 600; margin: 0 2px; padding: 0px 6px; line-height: 1.4em; white-space: pre-wrap; display: inline-block; }
+
+*/
+
+
+
 
 /* headings */
 h1 * { color: var(--theme-color) !important; }
@@ -33,7 +71,7 @@ h4 *, h5 * { color: var(--subheader) !important; }
 h6 * { color: var(--h6) !important; }
 h2 code { color: var(--green) !important; background-color: var(--white)!important; border-color: var(--green) !important;}
 h2 code, h2 { font-size: 1.4rem !important; }
-
+.anchor { line-height: 2em; }
 /* Tables */
 table.tweak { padding: 10px 0 50px 0; }
 table.nbp { padding: 10px 0 0 0; !important; }
@@ -45,10 +83,11 @@ table.active th.version code { color: var(--white); background-color: var(--aler
 table.archive th.version code { color: var(--white); background-color: var(--theme-color); }
 /* Tables... tweak styles */
 table.style > td strong { color: var(--theme-color); font-style: normal; }
-table.style em { color: var(--alert); font-style: normal; }
+table.style em, table.style a { color: var(--alert); font-style: normal; }
+.markdown-section a { color: var(--green); font-style: normal; }
 
 /* markdown-section */
-.markdown-section p strong code, .markdown-section blockquote strong code, .markdown-section p a { color: var(--subheader) !important; }
+.markdown-section p strong code, .markdown-section blockquote strong code, .markdown-section p-a- { color: var(--subheader) !important; }
 .markdown-section blockquote { margin-left: 2rem; }
 
 /* CHANGELOG / table: -current, -archive / word-wrap issue fix */
@@ -56,9 +95,10 @@ table.style em { color: var(--alert); font-style: normal; }
 .table-archived { padding: 50px 0px; }
 .table-current, .table-archived { line-height: 1.6em; }
 .table-current td, .table-archived td { width: 100em; word-break: break-word; hyphens: auto; line-height: 1.6em; }
+/*
 .table-current td code, .table-archived td code, .table code, .markdown-section code { word-break: keep-all; background-color: var(--white); color: var(--theme-color); border:1px solid var(--border);
 border-radius: 3px; font-family: inherit; font-size: inherit; font-weight: 600; margin: 0 2px; padding: 0px 6px; line-height: 1.4em; white-space: pre-wrap; display: inline-block; }
-
+*/
 
 /* SIDEBAR.MD */
 /* tweak autopopulated h2 as link included <code> */
@@ -72,14 +112,15 @@ border-radius: 3px; font-family: inherit; font-size: inherit; font-weight: 600; 
 
 /* FA ICONS global */
 .fas, .far { width: 2em; text-align: center; color: var(--disable); }
-.markdown-section p i { color: var(--alert); }
+.markdown-section p i { color: var(--green); }
 
 /* Blockquote */
 .markdown-section blockquote1 { margin-left: 2.2rem; border: none; /* border-color: var(--alert); */ }
-.markdown-section blockquote1::before { content: "\f06a"; font-family: Font Awesome\ 5 Free; font-weight: 900; padding-right: 5px; display: inline-block; color: var(--alert); font-size: 1.5rem; vertical-align:top;}
+.markdown-section blockquote1::before { content: "\f06a"; font-family: Font Awesome\ 5 Free; font-weight: 900; padding-right: 5px; display: inline-block; color: var(--alert); font-size: 1.5rem; vertical-align:top; }
 .markdown-section blockquote1 p { font-weight: normal; color: var(--disable); display: inline-block; width: 90%; vertical-align: top; padding:0; margin: 0; }
 
 .markdown-section blockquote { border-left: solid 2px var(--blockquote); }
+.markdown-section blockquote::before { content: "\f06a"; font-family: Font Awesome\ 5 Free; font-weight: 900; padding-right: 5px; display: inline-block; color: var(--alert); font-size: 1.5rem; vertical-align:top; }
 .markdown-section blockquote p { font-weight: normal; }
 .markdown-section blockquote p em code { color: var(--alert); font-style: normal; font-weight: normal; font-family: Consolas, monaco, monospace; }
 
@@ -155,7 +196,7 @@ h2:hover span::before { content: "\f105"; font-family: Font Awesome\ 5 Free; fon
 
 
 /* download page */
-.list-of-links a { color: var(--theme-color); }
+.list-of-links li a { color: var(--theme-color); }
 .list-of-links a:hover { color: var(--alert); transition: color 0.3s; }
 .text-decoration-none, .text-decoration-none a, a i { text-decoration: none; }
 .list-style-none { list-style: none; }

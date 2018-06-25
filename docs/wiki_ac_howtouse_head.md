@@ -1,5 +1,9 @@
 ## HEAD
 
+In paragraph `code` *italic* **bold** [link](tracking_links?id=link)
+
+*`code-italic`* **`code-bold`** *[link-italic](tracking_links?id=link)* **[link-bold](tracking_links?id=link)**
+
 ### CPCW `Currys` —and— `PCWorld`
 
 Please use below code as a default `HEAD` meta tags for each `Currys` —and— `PCWorld` template

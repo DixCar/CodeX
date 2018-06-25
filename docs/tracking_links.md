@@ -1,36 +1,30 @@
 # Tracking Links
 
-Please follow guidance below to keep links trackable. Bear in mind the links can be vary depend of chaingroup.
-
-> It is mandatory to follow all guidance below.
-
+Please, follow guidance below to keep all links trackable depend of brand.
 
 
 - - -
 
 
+## `Currys` `PCWorld`
 
-## `Currys` and `PCWorld`
-
-Both are use same parts to create tracking code.
+> The tracking part of the link is same for both.
 
 ###### Example of tracking part.
 
 ``` HTML
-<a href="https://www.currys.co.uk/xxxx/?<%@ include view='dixDIXtrackingCPCW1' %>~COM~TVN~3NOM1~<%@ include view='dixDIXtrackingCPCW2' %>" _label="3NOM1">
+<a href="https://www.currys.co.uk/?<%@ include view='dixDIXtrackingCPCW1' %>~COM~TVN~3NOM1~<%@ include view='dixDIXtrackingCPCW2' %>" _label="3NOM1">
 
-<a href="https://www.pcworld.co.uk/xxx/?<%@ include view='dixDIXtrackingCPCW1' %>~SEG~LAP~1BNR2~<%@ include view='dixDIXtrackingCPCW2' %>" _label="1BNR2">
+<a href="https://www.pcworld.co.uk/?<%@ include view='dixDIXtrackingCPCW1' %>~SEG~LAP~1BNR2~<%@ include view='dixDIXtrackingCPCW2' %>" _label="1BNR2">
 ```
 
 ###### How to edit?
 
-**`href="https://www.currys.co.uk/xxxx/"`** always it should be SSL protocol `https` and make sure is no `empty space` between `link` and `?`
+**`href="https://www.currys.co.uk/"`** always it should be SSL protocol `https` and make sure is no `empty space` between `link` and `?`
 
-**`~COM~TVN~3NOM1~`** contains 3 parts; `page type`, `category`, `module` and each part is separated by `~`
+**`~COM~TVN~3NOM1~`** included three parts; [Page Type](tracking_links?id=page-type), [Category](tracking_links?id=category), [Module](tracking_links?id=module) and each part is separated by `~`
 
-> Please follow [Tags](tracking_links?id=tags) link to sidebar.md section to see available tags.
-
-**`_label="3NOM1"`** as above update it to follow your type of `module`
+**`_label="3NOM1"`** as above update it to follow your type of [Module](tracking_links?id=module)
 
 **`<%@ include view='dixDIXtrackingCPCW1' %>`** and **`<%@ include view='dixDIXtrackingCPCW2' %>`** are parts of tracking populated by [Personalization Blocks](personalization_block) on send time within Adobe Campaign
 
@@ -42,10 +36,28 @@ Both are use same parts to create tracking code.
 ## `PCWBusiness`
 
 ``` HTML
-<a href="https://www.xxx.co.uk/xxx/?utm_campaign=<%= CampaignName %>&utm_medium=email&utm_source=PCWB_wk<%= targetData.WeekNo %>&utm_term=<%= message.delivery.id %>&utm_content=1BNR1_OTH" _label="1BNR1_OTH">
+<a href="https://www.pcworldbusiness.co.uk/?utm_campaign=<%= CampaignName %>&utm_medium=email&utm_source=PCWB_wk<%= targetData.WeekNo %>&utm_term=<%= message.delivery.id %>&utm_content=1BNR1_OTH" _label="1BNR1_OTH">
 ```
 
-## Tags
+###### How to edit?
+
+**`href="https://www.pcworldbusiness.co.uk/"`** always it should be SSL protocol `https` and make sure is no `empty space` between `link` and `?`
+
+**`&utm_content=1BNR1_OTH`** contains [category](tracking_links?id=category)
+
+> Please follow  link to sidebar.md section to see available tags.
+
+**`_label="1BNR1_OTH"`** as above update it to follow your type of [module](tracking_links?id=module)
+
+**`<%@ include view='dixDIXtrackingCPCW1' %>`** and **`<%@ include view='dixDIXtrackingCPCW2' %>`** are parts of tracking populated by [Personalization Blocks](personalization_block) on send time within Adobe Campaign
+
+
+
+- - -
+
+
+
+### Page Type
 
 ##### Use below with `Currys` `PCWorld` `PCWBusiness`
 
@@ -103,6 +115,10 @@ Both are use same parts to create tracking code.
     </tr>
   </tbody>
 </table>
+
+### Category
+
+##### Use below with `Currys` `PCWorld` `PCWBusiness`
 
 <table class="tweak hw">
   <thead>
@@ -257,6 +273,10 @@ Both are use same parts to create tracking code.
   </tbody>
 </table>
 
+### Module
+
+##### Use below with `Currys` `PCWorld` `PCWBusiness`
+
 <table class="tweak style hw nbp">
   <thead>
     <tr>
@@ -294,78 +314,70 @@ Both are use same parts to create tracking code.
     <tr>
       <td>`1NOM∞`</td>
       <td>1x Nomination in Row</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`2NOM∞`</td>
       <td>2x Nominations in Row</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`3NOM∞`</td>
       <td>3x Nominations in Row</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`1BNR∞`</td>
       <td>1x Banner in Row</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`2BNR∞`</td>
       <td>2x Banners in Row</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`3BNR∞`</td>
       <td>3x Banners in Row</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`TKH∞`</td>
       <td>TeamKnowHow</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`IDM∞`</td>
       <td>iD Mobile</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`CPW∞`</td>
       <td>CarphoneWarehouse</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`OEL`</td>
       <td>Our Experts Love</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`Brands∞`</td>
       <td>Brands</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
     <tr>
       <td>`Range∞`</td>
       <td>Range</td>
-      <td>*∞* = Follow quantity</td>
+      <td>*∞* = update the numerators</td>
     </tr>
   </tbody>
 </table>
 
-> *`∞`* representative digital number (counter)
+> First digit number stands for type of `Module` in a single `row` (left-to-right)
 >
-> First *`∞`* stands for counting same type of `Modules` in a single row (left-to-right)
->
-> Second *`∞`* stands for counting same type of `Modules` in total (top-to-bottom)
+> Update the numerator *`∞`* to describe same type of `Modules` in total (top-to-bottom)
 
 
 
 - - -
-
-
-
-## Image Library
-
-kjbljjhhv

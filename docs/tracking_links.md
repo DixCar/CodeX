@@ -22,7 +22,7 @@ Please, follow guidance below to keep all links trackable depend of brand.
 
 **`href="https://www.currys.co.uk/"`** always it should be SSL protocol `https` and make sure is no `empty space` between `link` and `?`
 
-**`~COM~TVN~3NOM1~`** included three parts; [Page Type](tracking_links?id=page-type), [Category](tracking_links?id=category), [Module](tracking_links?id=module) and each part is separated by `~`
+**`~COM~TVN~3NOM1~`** included three parts; [Page Type <span class="icon link"></span>][1], [Category <span class="icon link"></span>][2] and [Module <span class="icon link"></span>][3] and each part is separated by `~`
 
 **`_label="3NOM1"`** as above update it to follow your type of [Module](tracking_links?id=module)
 
@@ -381,3 +381,7 @@ Please, follow guidance below to keep all links trackable depend of brand.
 
 
 - - -
+
+[1]: <tracking_links?id=page-type> "Page Type"
+[2]: <tracking_links?id=category> "Category"
+[3]: <tracking_links?id=module> "Module"

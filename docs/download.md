@@ -1,5 +1,7 @@
 # Download
 
+<p class="tip">fsdfsfsf</p>
+
 Grab the latest Master Template.
 
 > Required access to SharePoint or BitBucket.

@@ -1,0 +1,14 @@
+:root {
+  --theme: #35B1FF; --h1: #35B1FF; --header: #2781BA;
+
+     --bg: #F4F4F4;
+    --txt: #332F28; /* p, h2-6 */
+   --link: #FF7070; /* links only */
+
+   --info: #42b983; /* such a tips and advice */
+  --alert: #FF7070; /* important things */
+
+    --off: #D3C9B3; /* disable and icons */
+ --border: #EFEFEF; /* also <hr> */
+ --gutter: #DDDDDD; /* to make split for 'sudo 2 columns' in table */
+}

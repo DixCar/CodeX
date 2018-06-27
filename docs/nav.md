@@ -27,14 +27,14 @@
   </li>
   <li class="level-1">~~Grid | Alpha 0.1~~
     <ul>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~Frame~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~mBNR~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~TEXT~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~1 COLUMN~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~2 COLUMN~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~3 COLUMN~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~4 COLUMN~~</li>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th"></i> --> ~~SNIPPETS~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~Frame~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~mBNR~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~TEXT~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~1 COLUMN~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~2 COLUMN~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~3 COLUMN~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~4 COLUMN~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~SNIPPETS~~</li>
     </ul>
   </li>
 </ul>

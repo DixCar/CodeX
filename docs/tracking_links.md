@@ -382,6 +382,16 @@ Please, follow guidance below to keep all links trackable depend of brand.
 
 - - -
 
+
+
+## jakis links
+
+adasdad
+
+
+
+---
+
 [1]: <tracking_links?id=page-type> "Page Type"
 [2]: <tracking_links?id=category> "Category"
 [3]: <tracking_links?id=module> "Module"

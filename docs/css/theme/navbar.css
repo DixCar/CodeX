@@ -9,7 +9,7 @@
     --navbar-root-border-color--active              : ;
     --navbar-root-border-color--hover               : ;
     --navbar-root-border-radius                     : ;
-    --navbar-root-border-style                      : solid;
+    --navbar-root-border-style                      : ;
     --navbar-root-border-style--active              : ;
     --navbar-root-border-style--hover               : ;
     --navbar-root-border-width                      : ;
@@ -49,7 +49,7 @@
     --navbar-menu-link-border-color--active         : ;
     --navbar-menu-link-border-color--hover          : ;
     --navbar-menu-link-border-radius                : ;
-    --navbar-menu-link-border-style                 : solid;
+    --navbar-menu-link-border-style                 : ;
     --navbar-menu-link-border-style--active         : ;
     --navbar-menu-link-border-style--hover          : ;
     --navbar-menu-link-border-width                 : ;

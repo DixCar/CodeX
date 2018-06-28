@@ -1,0 +1,19 @@
+<!-- Theme
+<link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/content.css">
+<link rel="stylesheet" href="css/coverpage.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/sidebar.css">
+
+and add edit initial script:
+
+  themeable: {
+      readyTransition : true, // default
+      responsiveTables: true  // default
+  }
+
+and add script:
+  <script src="https://unpkg.com/docsify-themeable"></script>
+-->

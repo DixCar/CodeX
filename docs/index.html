@@ -1,60 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:600" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-  <!-- Theme: Defaults -->
-    <link rel="stylesheet" href="css/tweak.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css"> -->
-<link rel="stylesheet" href="css/app.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/content.css">
-<link rel="stylesheet" href="css/coverpage.css">
-<link rel="stylesheet" href="css/navbar.css">
-<link rel="stylesheet" href="css/sidebar.css">
-  <!-- availabe default themes: href="//unpkg.com/docsify/themes/pure.css dark.css buble.css vue.css -->
-  <!-- <link rel="stylesheet" href="css/css_var.css">
-  <link rel="stylesheet" href="css/vue.css"> -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<meta name="description" content="xxx">
+<title>xxx</title>
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:600" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- availabe default themes: href="//unpkg.com/docsify/themes/pure.css dark.css buble.css vue.css -->
+<!-- <link rel="stylesheet" href="css/css_var.css">
+<link rel="stylesheet" href="css/style/pure.css">
+<link rel="stylesheet" href="css/tweak.css"> -->
+<!-- <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css"> -->
+<link rel="stylesheet" href="assets/css/theme-simple-dark.css">
+<link rel="stylesheet" href="assets/css/main.css">
 
 </head>
 <body class="reset-body-text">
-  <div id="app">Wait...</div>
-  <script>
+<div id="app">Wait...</div>
+<!-- JavaScript -->
+<!-- JavaScript -->
+<script>
     window.$docsify = {
-      // The DOM element to be mounted on initialization. It can be a CSS selector string or an actual HTMLElement.
-      el: '#app',
-      name: '',
-      repo: '',
-      // Maximum Table of content level.
-      maxLevel: 6,
-      subMaxLevel: 3,
-      // Loads navbar from the Markdown file _navbar.md if true, or else from the path specified.
-      loadSidebar: true,
-      loadNavbar: 'nav.md',
-      mergeNavbar: true,
-      // Loads sidebar from the Markdown file _sidebar.md if true, or else from the path specified.
-      loadSidebar: 'sidebar.md',
-      // Activate the cover feature. If true, it will load from _coverpage.md.
-      coverpage: 'cover.md',
-      onlyCover: false,
-      // Set theme color
-      themeColor: '#35B1FF',
-      themeable: {
-          readyTransition : true, // default
-          responsiveTables: true  // default
-      }
-    }
-  </script>
-  <script src="https://unpkg.com/docsify-themeable"></script>
-  <script src="//unpkg.com/docsify-copy-code"></script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+        // GENERAL
+        // -----------------------------------------------------------------
+        name         : 'CODEINE',
+        repo         : 'https://github.com/DixCar/paTHer',
+        logo: '../_media/logo.svg',
+        themeColor   : '#FFA126;',
+        homepage     : 'index.md',
+        loadNavbar: true,
+        loadNavbar   : 'navbar.md',
+        loadSidebar: true,
+        loadSidebar  : 'sidebar.md',
+        coverpage: true,
+        coverpage    : 'coverpage.md',
+        // NAVIGATION
+        // -----------------------------------------------------------------
+        auto2top     : true,
+        maxLevel     : 3,
+        autoHeader   : true,
+        mergeNavbar  : true,
+        subMaxLevel  : 3,
+        // PLUGINS
+        // -----------------------------------------------------------------
+        search       : {
+            depth      : 3,
+            noData     : 'No results!',
+            placeholder: 'Search...'
+        },
+        themeable    : {
+            // readyTransition : false,
+            // responsiveTables: false
+        }
+    };
+</script>
+<script src="../assets/js/main.js"></script>
+<script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="https://unpkg.com/docsify-themeable"></script>
+<script src="https://unpkg.com/docsify-copy-code"></script>
+<script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="https://unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+<script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+<script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
+<script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+<script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>
 </body>
 </html>

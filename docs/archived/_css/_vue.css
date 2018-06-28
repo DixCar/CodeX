@@ -280,7 +280,7 @@ main.hidden {
   background: rgba(136,136,136,0.4);
 }
 .sidebar:hover::-webkit-scrollbar-track {
-  background: rgba(136,136,136,0.1);
+  background: rgba(136,136,136,1;
 }
 .sidebar-toggle {
   background-color: transparent;

@@ -1,15 +1,9 @@
-<!-- Note:
-  above header is populated automatically and stands for Quick Start as is set in sidebar.md file
-  if use h1 will not appear to sidebar - but h2 and h3 ect. will -->
+## Download Frameworks
+[filename](_includes/download-frames.md ':include')
 
-# header 1 - not appear to sidebar (left menu)
-
-## Download Framework
-
-[filename](_includes/download-framework.md ':include')
-
-### Change Log
 
 ## Download Modules
+[filename](_includes/download-modules.md ':include')
 
-### Change Log
+## Change Log
+[filename](_includes/changelog.md ':include')

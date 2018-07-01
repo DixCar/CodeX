@@ -40,31 +40,3 @@ figure.thumbnails img {
         }
     }
 }
-
-:root {
---active: #ffffff;
---r-p-l: padding-left: 0;
---r-ul-li: list-style: none;
---r-link: text-decoration: none; color: inherit;
-}
-
-.cover img, #download-framework img { vertical-align: middle; }
-.sidebar::-webkit-scrollbar {
-  width: 4px;
-}
-.sidebar::-webkit-scrollbar-thumb {
-  background: transparent;
-  /* border-radius: 4px; */
-}
-.sidebar:hover::-webkit-scrollbar-thumb {
-  background: rgba(52,67,75,1);
-}
-.sidebar:hover::-webkit-scrollbar-track {
-  background: rgba(52,67,75,0.2);
-}
-
-
-.xxxxxx a svg, .xxxxxx a img { fill: #000000 v; stroke: #000000 !important; }
-.download-page  { list-style: none; var(--r-p-l); }
-.download-page a { text-decoration: none; }
-.download-page a:hover { color: #000000 !important; text-decoration: var(--text-decoration-none); }

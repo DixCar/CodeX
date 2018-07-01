@@ -334,8 +334,7 @@ color:var(--search-input-placeholder-color, gray)
 .sidebar .search .search-keyword { margin: var(--search-result-keyword-margin); padding: var(--search-result-keyword-padding); border-radius: var(--search-result-keyword-border-radius); background-color: var(--search-result-keyword-background); color: var(--search-result-keyword-color, currentColor); font-style: normal; font-weight: var(--search-result-keyword-font-weight) }
 .medium-zoom-overlay, .medium-zoom-image--open { z-index: 50 !important }
 .medium-zoom-overlay { background: var(--zoomimage-overlay-background) !important }
-:root {
---mono-hue: 113;
+:root { --mono-hue: 113;
 --mono-saturation: 0%;
 --mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 20%);
 --mono-shade2: hsl(var(--mono-hue), var(--mono-saturation), 30%);
@@ -654,7 +653,12 @@ color:var(--search-input-placeholder-color, gray)
 --code-theme-text: #f3f3f3;
 --code-theme-variable: #ffcb6b
 }
-:root { --mono-hue: 201;
+:root {
+
+/* */
+
+
+--mono-hue: 201;
 --mono-saturation: 18%;
 --mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 13%);
 --mono-shade2: hsl(var(--mono-hue), var(--mono-saturation), 15%);
@@ -665,14 +669,14 @@ color:var(--search-input-placeholder-color, gray)
 --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 43%);
 --spinner-track-color: rgba(255, 255, 255, 0.15);
 --base-background-color: var(--mono-base);
---base-color: #BABABA;
+/* --base-color: #d3d3d3; */
 --hr-border: 1px solid var(--mono-tint2);
 --mark-background: #ffcb6b;
 --mark-color: var(--base-background-color);
 --blockquote-background: var(--mono-shade2);
 --code-inline-background: var(--mono-tint1);
 --code-theme-background: var(--mono-shade2);
---heading-color: #fff;
+--heading-color: var(--theme);
 --heading-h2-border-color: var(--mono-tint2);
 --kbd-background: var(--mono-shade2);
 --kbd-border: none;

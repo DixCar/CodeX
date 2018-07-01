@@ -35,6 +35,8 @@
       <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~3 COLUMN~~</li>
       <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~4 COLUMN~~</li>
       <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~SNIPPETS~~</li>
+      <li><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> [link](/demo ':disabled')</li>
+      <li><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> [link](/demo)</li>
     </ul>
   </li>
 </ul>

@@ -1,0 +1,53 @@
+:root {
+  --theme: #60727b;
+  --base-color: #698290;
+
+
+  --sb-link-1: #35B1FF; --sb-link-2: #FF7070; --sb-link-3: #08B29E;
+--code: #35B1FF;
+     --bg: #F4F4F4;
+    --txt: #FFC447;
+   --link: #FF7070; /* links only */
+
+   --info: #2AC98F; /* such a tips and advice */
+  --alert: #FF7070; /* important things */
+
+    --off: #D3C9B3; /* disable and icons */
+ --border: #EFEFEF; /* also <hr> */
+ --gutter: #DDDDDD; /* to make split for 'sudo 2 columns' in table */
+
+
+/* tweaks */
+ --heading-h1-color: hsl(204, 90%, 45%);
+
+ /* links in markdown-section only*/
+--link-color-hover: #FFC447;
+--link-color: hsl(204, 90%, 45%);
+--link-disabled: #495e69;
+--fa: "Font Awesome 5 Free";
+--no-padding: 0 0;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: transparent;
+  /* border-radius: 4px; */
+}
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background: rgba(52,67,75,1);
+}
+.sidebar:hover::-webkit-scrollbar-track {
+  background: rgba(52,67,75,0.2);
+}
+/* .sidebar h1 a { font-size: 5em; } */
+
+.sidebar ul li strong, .sidebar .level-1 span { margin-left: -20px; position: relative; z-index: 999;}
+
+.markdown-section h1 { color: var(--txt)}
+#download-frameworks + ul, #download-modules + ul { list-style: none; padding: var(--no-padding); }
+a[title=download] i, a[title=disabled] i { margin-right: 6px; vertical-align: middle; }
+a[title=download]:hover { color: var(--link-color-hover); }
+a[title=disabled] { color: var(--link-disabled); }
+a[title=disabled]:hover { color: var(--alert); text-decoration-line: line-through; }

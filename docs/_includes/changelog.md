@@ -1,8 +1,4 @@
-# ChangeLog
-
-Find the latest and archived changes across all Master-Template files for Currys, PCWorld and PCWBusiness
-
-## Latest update
+### Latest update
 
 <table class="tweak active fw">
   <thead>
@@ -39,9 +35,7 @@ Find the latest and archived changes across all Master-Template files for Currys
   </tbody>
 </table>
 
-- - -
-
-## Archived
+### Archived
 
 <table class="tweak archive fw">
   <thead>
@@ -167,7 +161,3 @@ Find the latest and archived changes across all Master-Template files for Currys
     </tr>
   </tbody>
 </table>
-
-- - -
-
-## another h2

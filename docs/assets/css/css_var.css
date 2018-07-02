@@ -49,13 +49,19 @@
 .app-sub-sidebar li, .app-sub-sidebar li a { margin: 0; padding-left: 5px; }
 .sidebar .search input { width: 100%; margin: 0 0; }
 
+.content > .markdown-section { width: 94% !important; }
 
-
-.markdown-section { margin: 0 1em; width: 100% !important; }
+.markdown-section a span { }
 
 .markdown-section h1 { color: var(--txt)}
-#frameworks + ul, #modules + ul { list-style: none; padding: var(--no-padding); }
+#frameworks + ul, #modules + ul, #grid + ul { list-style: none; padding: var(--no-padding); }
 a[title=download] i, a[title=disabled] i { margin-right: 6px; vertical-align: middle; }
 a[title=download]:hover { color: var(--link-color-hover); }
 a[title=disabled] { color: var(--link-disabled); }
 a[title=disabled]:hover { color: var(--alert); text-decoration-line: line-through; }
+
+
+
+
+
+body .docsify-copy-code-button, body .docsify-copy-code-button::after { background: var(--code)}

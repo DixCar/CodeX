@@ -1,0 +1,4 @@
+- **<i class="fas fa-paper-plane"></i> Quick Start**
+- [Downloads](quickstart.md)
+- **<i class="fas fa-terminal"></i> Initial Setup**
+- [Markdown](markdown.md)

@@ -1,4 +1,0 @@
-- [Quick Start](quickstart.md)
-- [Markdown](markdown.md)
-- **<i class="fas fa-terminal"></i> Initial Setup**
-- **<i class="fas fa-paper-plane"></i> Quick Start**

@@ -27,7 +27,7 @@
   </li>
   <li class="level-1">~~Grid | Alpha 0.1~~
     <ul>
-      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~Frame~~</li>
+      <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~Framework~~</li>
       <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~mBNR~~</li>
       <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~TEXT~~</li>
       <li class="disable-link"><i class="fas fa-times"></i><!-- <i class="fas fa-th-list"></i> --> ~~1 COLUMN~~</li>

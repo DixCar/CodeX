@@ -386,7 +386,7 @@ color:var(--search-input-placeholder-color, gray)
 --strong-font-weight: 600;
 --subsup-font-size: var(--font-size-s)
 }
-:root { --content-max-width: 100%;
+:root { --content-max-width: 55em;
 --blockquote-background: var(--mono-tint3);
 --blockquote-border-style: solid;
 --blockquote-border-radius: var(--border-radius-m);

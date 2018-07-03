@@ -1,5 +1,15 @@
 # Markdown
 
+p> `p>` --primary-alert
+
+s> `s>` --secondary-alert
+
+h> `h> ` --help-alert
+
+l> `l> ` --idea-alert
+
+i> `i>` --info-alert
+
 ## Headings
 
 # Heading 1 {docsify-ignore}

@@ -16,15 +16,23 @@
  --border: #EFEFEF; /* also <hr> */
  --gutter: #DDDDDD; /* to make split for 'sudo 2 columns' in table */
 
+
+--primary-alert:#35B1FF;
+--secondary-alert:#FF7070;
+--help-alert:#FFC447;
+--idea-alert:#;
+--info-alert:#2AC98F;
+
+
 /* tweaks */
  --heading-h1-color: hsl(204, 90%, 45%);
 
 
  /* links in markdown-section only*/
---link-color-hover: #FFC447;
+--link-color-hover: #2AC98F;
 --link-color: hsl(204, 90%, 45%);
 --link-disabled: #495e69;
---fa: "Font Awesome 5 Free";
+--fa: "Font Awesome 5 Free" font-weight: 900;
 --no-padding: 0 0;
 }
 
@@ -52,9 +60,9 @@
 
 .content > .markdown-section { width: 94% !important; }
 
-.markdown-section a span { }
+.markdown-section a.anchor:hover { text-decoration: none; }
 
-.markdown-section h1 { color: var(--txt)}
+.markdown-section h1 { color: var(--heading-h1-color)}
 #frameworks + ul, #modules + ul, #grid + ul { list-style: none; padding: var(--no-padding); }
 a[title=download] i, a[title=disabled] i { margin-right: 6px; vertical-align: middle; }
 a[title=download]:hover { color: var(--link-color-hover); }
@@ -66,3 +74,50 @@ a[title=disabled]:hover { color: var(--alert); text-decoration-line: line-throug
 
 
 body .docsify-copy-code-button, body .docsify-copy-code-button::after { background: var(--code)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.markdown-section .alert { position: relative; margin: 2em 0; padding: var(--notice-padding); border-width: var(--notice-border-width, 0); border-style: var(--notice-border-style); border-color: var(--notice-border-color); border-radius: var(--notice-border-radius); background: var(--notice-important-background, var(--notice-background)); color: var(--notice-important-color, var(--notice-color)); font-family: var(--notice-font-family); font-weight: var(--notice-font-weight); color: var(--notice-color) }
+.markdown-section .alert:before { display: inline-block; position: var(--notice-before-position, relative); top: var(--notice-before-top); left: var(--notice-before-left); height: var(--notice-before-height); width: var(--notice-before-width); margin: var(--notice-before-margin); padding: var(--notice-before-padding); border-radius: var(--notice-before-border-radius); line-height: var(--notice-before-line-height); text-align: center; font-family: "Font Awesome 5 Free"; font-weight: 900; font-size: 1.2em; }
+
+
+.markdown-section .primary { border-color: var(--primary-alert);  }
+.markdown-section .primary:before { content: "\f071"; color: var(--primary-alert); }
+
+.markdown-section .secondary { border-color: var(--secondary-alert);  }
+.markdown-section .secondary:before { content: "\f06a"; color: var(--secondary-alert); }
+
+.markdown-section .help { border-color: var(--help-alert);  }
+.markdown-section .help:before { content: "\f059"; color: var(--help-alert); }
+
+.markdown-section .idea { border-color: var(--idea-alert);  }
+.markdown-section .idea:before { content: "\f0eb"; color: var(--idea-alert); }
+
+.markdown-section .info { border-color: var(--info-alert);  }
+.markdown-section .info:before { content: "\f05a"; color: var(--info-alert); }

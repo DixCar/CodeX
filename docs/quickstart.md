@@ -1,6 +1,8 @@
+# Templates 1
+
 Use links below to download available `Frameworks` and `Modules` templates or copy ready-to-use `Code-Snippets`
 
-!> Always use only latest version of available templates
+s> Always use only latest version of available templates
 
 <!-- <i class="fas fa-fw fa-file-code"></i><i class="fas fa-fw fa-file-medical"></i><i class="fas fa-fw fa-th-list"></i><i class="fas fa-fw fa-file-alt"></i>  -->
 
@@ -24,7 +26,7 @@ Use links below to download available `Frameworks` and `Modules` templates or co
 - [<i class="fas fa-fw fa-file-download"></i>VML](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template/AC_VML.html?csf=1&e=6a3403629d8740949ef87c5ba6f963af 'download')
 <!-- - [<i class="fas fa-fw fa-times"></i>iD Mobile](# 'disabled') -->
 
-!> We provided both `TH` and `Table Alignment` modules, however we highly recommended use only `TH` modules
+p> We provided both `TH` and `Table Alignment` modules, however we highly recommended use only `TH` modules
 
 
 ##  Grid
@@ -39,7 +41,7 @@ Use links below to download available `Frameworks` and `Modules` templates or co
 - [<i class="fas fa-fw fa-times"></i>4 COLUMN](# 'disabled')
 - [<i class="fas fa-fw fa-times"></i>Snippets](# 'disabled')
 
-?> **Grid** template is not yet available, however we are using it for `OLB 2.0`
+i> **Grid** template is not yet available, however we are using it for `OLB 2.0`
 
 
 ##  Plain Text Template
@@ -54,4 +56,4 @@ To unsubscribe, click here:
 <%@ include view='dixDIXPrefManagement' %>
 ```
 
-!> Above code is mandatory to use with any campaign within _AdobeCampaign_
+p> Above code is mandatory to use with any campaign within _AdobeCampaign_

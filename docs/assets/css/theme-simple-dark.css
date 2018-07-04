@@ -6,10 +6,10 @@
 transform:rotate(0)
 }
 20%, 60% {
-transform:rotate(-25deg)
+transform:rotate(-3deg)
 }
 40%, 80% {
-transform:rotate(10deg)
+transform:rotate(3deg)
 }
 }
 .progress { position: fixed; z-index: 60; top: 0; left: 0; right: 0; height: 3px; width: 0; background-color: var(--theme-color); transition:width var(--duration-fast), opacity calc(var(--duration-fast) * 2)
@@ -572,7 +572,7 @@ color:var(--search-input-placeholder-color, gray)
 --heading-h2-padding: 0 0 0 0;
 --kbd-border: 1px solid var(--mono-tint2);
 --notice-border-radius: 0 var(--border-radius-m) var(--border-radius-m) 0;
---notice-border-width: 0 0 0 4px;
+--notice-border-width: 0 0 0 2px;
 --notice-padding: 1em 1.5em 1em 3.6em;
 --notice-before-border-radius: 100%;
 --notice-before-font-weight: bold;

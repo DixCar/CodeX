@@ -1,5 +1,3 @@
-# Templates 1
-
 Use links below to download available `Frameworks` and `Modules` templates or copy ready-to-use `Code-Snippets`
 
 s> Always use only latest version of available templates

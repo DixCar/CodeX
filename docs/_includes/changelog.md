@@ -1,4 +1,4 @@
-### Latest update
+## Latest update
 
 <table class="tweak active fw">
   <thead>

@@ -6,9 +6,13 @@ s> `s>` --secondary-alert
 
 h> `h> ` --help-alert
 
-l> `l> ` --idea-alert
+b> `b> ` --bug-alert
 
 i> `i>` --info-alert
+
+c> `c>` --code-alert
+
+
 
 ## Headings
 

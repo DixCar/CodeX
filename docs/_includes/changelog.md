@@ -1,5 +1,6 @@
 ## Latest update
 
+
 There are four type of changes:
 
 <i class="fas fa-fw fa-exclamation"></i> IMPORTANT
@@ -19,29 +20,29 @@ There are four type of changes:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Changes</strong></td>
-      <td><strong>Comments</strong></td>
-      <td><strong>Type</strong></td>
+      <td>**Changes**</td>
+      <td>**Comments**</td>
+      <td>**Type**</td>
     </tr>
     <tr>
       <td><!--[goto](/download?id=skeleton-framework)-->**PersonalizationBlock** injecting *GDPR Terms & Conditions*</td>
       <td>Unique for each: `Currys` `PCW` `PCWB`</td>
-      <td><i class="fas fa-fw fa-file-download"></i></td>
+      <td><i class="fas fa-fw fa-exclamation"></i></td>
     </tr>
     <tr>
       <td>**PersonalizationBlock** injecting *Core CSS*</td>
       <td>Unique for each: `All templates`</td>
-      <td>'download'</td>
+      <td><i class="fas fa-fw fa-exclamation"></i></td>
     </tr>
     <tr>
       <td>**PersonalizationBlock** injecting *ReturnPath tracking pixel*</td>
       <td>Same for both: `Currys` `PCW`</td>
-      <td><p>!</p></td>
+      <td><i class="fas fa-fw fa-exclamation"></i></td>
     </tr>
     <tr>
       <td>**Shop Your Way** - fix center alignment</td>
-      <td>Same for both: <code>Currys</code> <code>PCW</code></td>
-      <td>Maintenance</td>
+      <td>Same for both: `Currys` `PCW`</td>
+      <td><i class="fas fa-fw fa-broom"></i></td>
     </tr>
   </tbody>
 </table>
@@ -56,19 +57,19 @@ There are four type of changes:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Changes</strong></td>
-      <td><strong>Comments</strong></td>
-      <td><strong>Type</strong></td>
+      <td>**Changes**</td>
+      <td>**Comments**</td>
+      <td>**Type**</td>
     </tr>
     <tr>
       <td>Added **role="presentation"** to all tables</td>
       <td>Same for: `All templates`</td>
-      <td>!bug</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
     <tr>
       <td>Added **CSS +#MessageViewBody** to fix Samsung UX links</td>
       <td>Same for: `All templates`</td>
-      <td>{ icon: bug }</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
     <tr>
       <td>Removed rest of **alias** tags</td>
@@ -78,12 +79,12 @@ There are four type of changes:
     <tr>
       <td>Removed *Your Plan* section/banner</td>
       <td>Same for: `Currys` `PCW`</td>
-      <td>Maintenance</td>
+      <td><i class="fas fa-fw fa-broom"></i></td>
     </tr>
     <tr>
       <td>Updated `WHYGIR` section</td>
       <td>Same for: `Currys` `PCW`</td>
-      <td>Maintenance</td>
+      <td><i class="fas fa-fw fa-broom"></i></td>
     </tr>
   </tbody>
 </table>
@@ -96,14 +97,14 @@ There are four type of changes:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Changes</strong></td>
-      <td><strong>Comments</strong></td>
-      <td><strong>Type</strong></td>
+      <td>**Changes**</td>
+      <td>**Comments**</td>
+      <td>**Type**</td>
     </tr>
     <tr>
       <td>Split UX *Gmail FIX* and *Apple FIX* - Gmail failed with !important</td>
       <td>Same for: `All templates`</td>
-      <td>Fix</td>
+      <td><i class="fas fa-fw fa-bug"></i></td>
     </tr>
   </tbody>
 </table>
@@ -116,39 +117,39 @@ There are four type of changes:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Changes</strong></td>
-      <td><strong>Comments</strong></td>
-      <td><strong>Type</strong></td>
+      <td>**Changes**</td>
+      <td>**Comments**</td>
+      <td>**Type**</td>
     </tr>
     <tr>
       <td>Added dummy *alt-text* to both Tracking Pixels</td>
       <td>Same for: `All templates`</td>
-      <td>Fix</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
     <tr>
       <td>Rename font-face *gothamBlack* font</td>
       <td>Same for: `All templates`</td>
-      <td>Improvement</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
     <tr>
       <td>~~Merged UX *Gmail FIX* and *Apple FIX*~~</td>
       <td>Same for: `All templates`</td>
-      <td>Fix</td>
+      <td><i class="fas fa-fw fa-wrench"></i><i class="fas fa-fw fa-bug"></i></td>
     </tr>
     <tr>
       <td>Removed space between *Tech* and *Talk* words in *Social* section</td>
       <td>Same for: `Currys` `PCW`</td>
-      <td>Improvement</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
     <tr>
       <td>Fixing *CSS* for *Yahoo* by removing empty spaces before *!important;*</td>
       <td>Same for: `All templates`</td>
-      <td>Fix</td>
+      <td><i class="fas fa-fw fa-bug"></i></td>
     </tr>
     <tr>
       <td>Added to *CSS* _*{ word-wrap: normal; -webkit-hyphens: none; -ms-hyphens: none; hyphens: none; }_ and *body a { text-decoration-skip: ink; }* to fix some problems with text wrap and make better underline links in the *Chrome* browser</td>
       <td>Same for: `All templates`</td>
-      <td>Fix</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
   </tbody>
 </table>
@@ -161,14 +162,14 @@ There are four type of changes:
   </thead>
   <tbody>
     <tr>
-      <td><strong>Changes</strong></td>
-      <td><strong>Comments</strong></td>
-      <td><strong>Type</strong></td>
+      <td>**Changes**</td>
+      <td>**Comments**</td>
+      <td>**Type**</td>
     </tr>
     <tr>
       <td>Changed *Pixel Tracking* to new</td>
       <td>Same for: `Currys` `PCW`</td>
-      <td>Improvement</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
     </tr>
   </tbody>
 </table>

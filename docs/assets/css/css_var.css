@@ -38,7 +38,7 @@
 
  /* links in markdown-section only*/
 --link-color-hover: #16E5C3;
---link-color: hsl(204, 90%, 45%);
+--link-color: #698290;
 --link-disabled: #495e69;
 --fa: "Font Awesome 5 Free";
 --fa-weight: 900;
@@ -67,12 +67,13 @@
 .sidebar .search input { width: 100%; margin: 0 0; }
 
 /* >>> Pages tweaks */
-#frameworks + ul, #modules + ul, #grid + ul { list-style: none; padding: var(--no-padding); }
+#frameworks ~ ul, #modules ~ ul, #css ~ ul, #grid ~ ul { list-style: none; padding: var(--no-padding); }
 a[title=download] i, a[title=disabled] i { margin-right: 6px; vertical-align: middle; }
 a[title=download]:hover, .app-nav a[title=download]:hover { color: var(--link-color-hover); }
 a[title=disabled], .app-nav a[title=disabled] { color: var(--link-disabled); text-decoration-line: line-through; }
 a[title=disabled]:hover, .app-nav a[title=disabled]:hover { color: var(--alert); text-decoration-line: line-through; }
 .app-nav a[title=download] { color: var(--base-color); }
+
 
 body .docsify-copy-code-button, body .docsify-copy-code-button::after { background: var(--code)}
 
@@ -101,3 +102,10 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 .fa-exclamation, .fa-bug { color: var(--primary-alert)}
 .fa-wrench { color: var(--secondary-alert)}
 .fa-broom { color: var(--info-alert)}
+
+.markdown-section .tweak.fw td { text-align: left; width: 100em;}
+/* .markdown-section .tweak.fw td:nth-child(1) { width: 70%; }
+.markdown-section .tweak.fw td:nth-child(2) { width: 28%; } */
+.markdown-section .tweak.fw td:nth-child(2), .markdown-section .tweak.fw td:nth-child(3) { width: 10%; text-align: center; border-left: 1px solid var(--table-cell-border-color); }
+.markdown-section .tweak { padding-bottom: 3em; }
+/* #main > table.tweak.fw > tbody > tr:last-child { border-bottom: 2px dashed var(--table-cell-border-color); } */

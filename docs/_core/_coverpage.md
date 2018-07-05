@@ -1,6 +1,8 @@
-# docsify-themeable
+# codeX
 
-> A delightfully simple theme system for [docsify.js](https://docsify.js.org)
+
+
+<!-- > A delightfully simple theme system for [docsify.js](https://docsify.js.org)
 
 - Based on CSS custom properties
 - No packages to install or files to build
@@ -11,4 +13,4 @@
 
 [![.](https://icongr.am/clarity/mouse.svg?size=30&color=ffffff)Get Started](#main)
 [Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
-[GitHub](https://github.com/jhildenbiddle/docsify-themeable)
+[GitHub](https://github.com/jhildenbiddle/docsify-themeable) -->

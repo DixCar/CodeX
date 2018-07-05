@@ -1,5 +1,7 @@
 - **<i class="fas fa-paper-plane"></i> Quick Start**
 - [Download Templates](quickstart.md)
 - [Change Log](changelog.md)
+- [Workflow](workflow.md)
 - **<i class="fas fa-terminal"></i> Initial Setup**
 - [Markdown](markdown.md)
+- [Change Log](changelogaaaaa.md)

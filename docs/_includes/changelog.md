@@ -1,5 +1,16 @@
 ## Latest update
 
+There are four type of changes:
+
+<i class="fas fa-fw fa-exclamation"></i> IMPORTANT
+
+<i class="fas fa-fw fa-bug"></i> BUG
+
+<i class="fas fa-fw fa-wrench"></i> IMPROVEMENT
+
+<i class="fas fa-fw fa-broom"></i> MAINTENANCE
+
+
 <table class="tweak active fw">
   <thead>
     <tr>
@@ -15,17 +26,17 @@
     <tr>
       <td><!--[goto](/download?id=skeleton-framework)-->**PersonalizationBlock** injecting *GDPR Terms & Conditions*</td>
       <td>Unique for each: `Currys` `PCW` `PCWB`</td>
-      <td>Improvement</td>
+      <td><i class="fas fa-fw fa-file-download"></i></td>
     </tr>
     <tr>
       <td>**PersonalizationBlock** injecting *Core CSS*</td>
       <td>Unique for each: `All templates`</td>
-      <td>Improvement</td>
+      <td>'download'</td>
     </tr>
     <tr>
       <td>**PersonalizationBlock** injecting *ReturnPath tracking pixel*</td>
       <td>Same for both: `Currys` `PCW`</td>
-      <td>Improvement</td>
+      <td><p>!</p></td>
     </tr>
     <tr>
       <td>**Shop Your Way** - fix center alignment</td>
@@ -52,17 +63,17 @@
     <tr>
       <td>Added **role="presentation"** to all tables</td>
       <td>Same for: `All templates`</td>
-      <td>Improvement</td>
+      <td>!bug</td>
     </tr>
     <tr>
       <td>Added **CSS +#MessageViewBody** to fix Samsung UX links</td>
       <td>Same for: `All templates`</td>
-      <td>Improvement</td>
+      <td>{ icon: bug }</td>
     </tr>
     <tr>
       <td>Removed rest of **alias** tags</td>
       <td>Only: `PCW`</td>
-      <td>Improvement</td>
+      <td><bug></td>
     </tr>
     <tr>
       <td>Removed *Your Plan* section/banner</td>

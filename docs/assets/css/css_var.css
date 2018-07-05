@@ -1,7 +1,7 @@
 :root {
   --theme: #60727b;
   --base-color: #698290;
-
+--red: #E51639;
 
   --sb-link-1: #35B1FF; --sb-link-2: #FF7070; --sb-link-3: #08B29E;
 --code: #35B1FF;
@@ -40,7 +40,8 @@
 --link-color-hover: #16E5C3;
 --link-color: hsl(204, 90%, 45%);
 --link-disabled: #495e69;
---fa: "Font Awesome 5 Free" font-weight: 900;
+--fa: "Font Awesome 5 Free";
+--fa-weight: 900;
 --no-padding: 0 0;
 }
 /* >>> Content */
@@ -68,9 +69,10 @@
 /* >>> Pages tweaks */
 #frameworks + ul, #modules + ul, #grid + ul { list-style: none; padding: var(--no-padding); }
 a[title=download] i, a[title=disabled] i { margin-right: 6px; vertical-align: middle; }
-a[title=download]:hover { color: var(--link-color-hover); }
-a[title=disabled] { color: var(--link-disabled); }
-a[title=disabled]:hover { color: var(--alert); text-decoration-line: line-through; }
+a[title=download]:hover, .app-nav a[title=download]:hover { color: var(--link-color-hover); }
+a[title=disabled], .app-nav a[title=disabled] { color: var(--link-disabled); text-decoration-line: line-through; }
+a[title=disabled]:hover, .app-nav a[title=disabled]:hover { color: var(--alert); text-decoration-line: line-through; }
+.app-nav a[title=download] { color: var(--base-color); }
 
 body .docsify-copy-code-button, body .docsify-copy-code-button::after { background: var(--code)}
 
@@ -95,4 +97,7 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 
 .markdown-section .code { border-color: var(--primary-alert);  }
 .markdown-section .code:before { content: "\f121"; color: var(--primary-alert); } /* f1c9 */
-/* <<< Warnings Blockquotes */
+
+.fa-exclamation, .fa-bug { color: var(--primary-alert)}
+.fa-wrench { color: var(--secondary-alert)}
+.fa-broom { color: var(--info-alert)}

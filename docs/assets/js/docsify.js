@@ -403,6 +403,9 @@ function tree(toc, tpl) {
 function helper(className, content) {
   return ("<p class=\"" + className + "\">" + (content.slice(5).trim()) + "</p>")
 }
+function helpertable(className, content) {
+  return ("<td class=\"" + className + "\">" + (content.slice(5).trim()) + "</td>")
+}
 
 function theme(color) {
   return ("<style>:root{--theme-color: " + color + ";}</style>")

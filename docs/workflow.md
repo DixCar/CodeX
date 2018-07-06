@@ -1,27 +1,34 @@
-Use below guide to follow workflow process to keep our work smart, clean and consistent, making it easy to understood for all team members.
+Use below guides to stick to the process and keep your work smart, clean and consistent.
+
+## Naming Convention
+
+### Campaign
+
+Rules to create *`FOLDER`* directory for your campaign
+
+    YYYYMMDD_wkXX_Campaign_SpecialistInitials
+
+Rules to create *`HTML`* file for your campaign
+
+    YYYYMMDD_wkXX_Chain_Campaign_SpecialistInitials_Version
 
 
-## Campaign Naming Convention
 
-Rules to create *`folders`* and *`files`*
-
-`wkXX_YYYYMMDD_Chain_Campaign_SpecialistInitials_Version`
-
-<table class="tweak style">
+<table class="tweak">
   <thead>
     <tr>
       <th style="text-align:left">Tag</th>
-      <th style="text-align:left">Where and how to use</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">`wkXX`</td>
-      <td style="text-align:left">if less than 10, include 0 at the beginning: **wk01**</td>
-    </tr>
-    <tr>
       <td style="text-align:left">`YYYYMMDD`</td>
       <td style="text-align:left">briefed deployment date</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">`wkXX`</td>
+      <td style="text-align:left">if less than 10, include 0 at the beginning: **wk01**</td>
     </tr>
     <tr>
       <td style="text-align:left">`Chain`</td>
@@ -55,7 +62,7 @@ Rules to create *`folders`* and *`files`*
 
 
 
-## SKUs Naming Convention
+### Assets Library
 
 Please follow guide below to name your cut-out SKU images correct and remember to upload all to *`G-Drive`* of our testing account *'sharing is caring'*
 

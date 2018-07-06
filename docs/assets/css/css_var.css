@@ -102,10 +102,17 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 .fa-exclamation, .fa-bug { color: var(--primary-alert)}
 .fa-wrench { color: var(--secondary-alert)}
 .fa-broom { color: var(--info-alert)}
-#main > .tweak > tbody > tr:nth-child(1) > td > strong { color: var(--mono-shade2) }
-#main > table.tweak.fw > tbody > tr:nth-child(1) { background-color: var(--table-cell-border-color); }
+
+#main > table.tweak > thead:nth-child(2) { background-color: var(--table-cell-border-color); }
+
+/* #main > .tweak > tbody > tr:nth-child(1) > td > strong { color: var(--mono-shade2) }
+#main > table.tweak.fw > tbody > tr:nth-child(1) { background-color: var(--table-cell-border-color); } */
 .markdown-section .tweak.fw td:nth-child(1) { width: 70%; }
 .markdown-section .tweak.fw td:nth-child(2) { width: 30%; text-align: left; border-left: 1px solid var(--table-cell-border-color); border-right: 1px solid var(--table-cell-border-color); }
 .markdown-section .tweak.fw td:nth-child(3) { width: 10%; text-align: center; }
 .markdown-section .tweak { padding-bottom: 3em; }
 /* #main > table.tweak.fw > tbody > tr:last-child { border-bottom: 2px dashed var(--table-cell-border-color); } */
+
+
+#main > pre { left: 2em; }
+/* #main > p { left: 11em; } */

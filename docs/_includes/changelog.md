@@ -6,12 +6,14 @@
       <th class="version">Version `2.5` 08.06.2018</th>
     </tr>
   </thead>
+  <thead>
+  <tr>
+    <td>**Changes**</td>
+    <td>**Comments**</td>
+    <td>**Type**</td>
+  </tr>
+  </thead>
   <tbody>
-    <tr>
-      <td>**Changes**</td>
-      <td>**Comments**</td>
-      <td>**Type**</td>
-    </tr>
     <tr>
       <td><!--[goto](/download?id=skeleton-framework)-->**PersonalizationBlock** injecting *GDPR Terms & Conditions*</td>
       <td>Unique for each: `Currys` `PCW` `PCWB`</td>
@@ -43,12 +45,14 @@
       <th class="version">Version `2.4` 04.05.2018</th>
     </tr>
   </thead>
-  <tbody>
+  <thead>
     <tr>
       <td>**Changes**</td>
       <td>**Comments**</td>
       <td>**Type**</td>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Added **role="presentation"** to all tables</td>
       <td>Same for: `All templates`</td>
@@ -83,12 +87,14 @@
       <th class="version">Version `2.3` 23.02.2018</th>
     </tr>
   </thead>
+  <thead>
+  <tr>
+    <td>**Changes**</td>
+    <td>**Comments**</td>
+    <td>**Type**</td>
+  </tr>
+  </thead>
   <tbody>
-    <tr>
-      <td>**Changes**</td>
-      <td>**Comments**</td>
-      <td>**Type**</td>
-    </tr>
     <tr>
       <td>Split UX *Gmail FIX* and *Apple FIX* - Gmail failed with !important</td>
       <td>Same for: `All templates`</td>
@@ -103,12 +109,14 @@
       <th class="version">Version `2.2` 23.02.2018</th>
     </tr>
   </thead>
-  <tbody>
+  <thead>
     <tr>
       <td>**Changes**</td>
       <td>**Comments**</td>
       <td>**Type**</td>
     </tr>
+  </thead>
+  <tbody>  
     <tr>
       <td>Added dummy *alt-text* to both Tracking Pixels</td>
       <td>Same for: `All templates`</td>
@@ -148,12 +156,14 @@
       <th class="version">Version `2.1` 30.01.2018</th>
     </tr>
   </thead>
-  <tbody>
+  <thead>
     <tr>
       <td>**Changes**</td>
       <td>**Comments**</td>
       <td>**Type**</td>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Changed *Pixel Tracking* to new</td>
       <td>Same for: `Currys` `PCW`</td>

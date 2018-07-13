@@ -1,16 +1,9 @@
-# codeX
+# <i class="fas fa-chevron-left" style="color: var(--primary-alert--); top:5px; position:relative;"></i>code<i class="fas fa-chevron-right" style="color: var(--primary-alert--); top:5px; position:relative;"></i><i class="fas fa-chevron-left" style="color: var(--help-alert--); top:5px; left:-4px; position:relative;"></i>
 
+<sub>Beta version 0.1/13-07</sub>
 
+> Documentation for Email Master Templates
 
-<!-- > A delightfully simple theme system for [docsify.js](https://docsify.js.org)
+- If you find bug, please report or just share your ideas.
 
-- Based on CSS custom properties
-- No packages to install or files to build
-- Improved desktop and mobile experience
-- Multiple themes available
-- Legacy browser support (IE10+)
-
-
-[![.](https://icongr.am/clarity/mouse.svg?size=30&color=ffffff)Get Started](#main)
-[Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
-[GitHub](https://github.com/jhildenbiddle/docsify-themeable) -->
+[<i class="fas fa-paper-plane"></i> Get Started](#main)

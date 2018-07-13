@@ -18,13 +18,13 @@
 
 /* >>> Warnings Blockquotes */
 
-    /* big contrast
-    --primary-alert     :#FFAA19;
-    --secondary-alert   :#E51639;
-    --help-alert        :#16E5C3;
-    --bug-alert         :#E51639;
-    --info-alert        :#0098E5;
-    */
+    /* big contrast */
+    --primary-alert--     :#FFAA19;
+    --secondary-alert--   :#E51639;
+    --help-alert--        :#16E5C3;
+    --bug-alert--         :#E51639;
+    --info-alert--       :#0098E5;
+
 /* tint */
 --secondary-alert     :#FFC86C;
 --primary-alert   :#F07F93;
@@ -116,3 +116,10 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 
 #main > pre { left: 2em; }
 /* #main > p { left: 11em; } */
+
+
+
+
+
+
+.cover-main h1 span { font-family:var(--code-font-family) }

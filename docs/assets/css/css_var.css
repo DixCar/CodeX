@@ -34,7 +34,9 @@
 --code-alert        :#6AEED8;
 
 /* >>> Headers */
- --heading-h1-color: hsl(204, 90%, 45%);
+--heading-h1-color: #0098E5;
+--heading-h2-color: #5CBDEE;
+--heading-h3-color: #698290;
 
  /* links in markdown-section only*/
 --link-color-hover: #16E5C3;
@@ -49,8 +51,13 @@
 
 /* >>> Headers */
 .markdown-section a.anchor:hover { text-decoration: none; }
-.markdown-section h1 { color: var(--heading-h1-color); }
-
+.markdown-section h1 { color: var(--heading-h1-color); font-size: 4em; }
+.markdown-section h2 { color: var(--heading-h2-color); font-size: 2em; padding-bottom: 10px; }
+.markdown-section h3 { color: var(--heading-h3-color); font-size: 1.5em; }
+.markdown-section h4 { color: var(--heading-h3-color); font-size: 1.4em; }
+.markdown-section h5 { color: var(--heading-h3-color); font-size: 1.2em; }
+.markdown-section h6 { color: var(--heading-h3-color); font-size: 1em; }
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 { line-height: 1.2em; font-weight: initial; }
 /* >>> Scrollbar GUI */
 .sidebar::-webkit-scrollbar { width: 4px; }
 .sidebar::-webkit-scrollbar-thumb { background: transparent; /* border-radius: 4px; */ }
@@ -107,14 +114,15 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 
 /* #main > .tweak > tbody > tr:nth-child(1) > td > strong { color: var(--mono-shade2) }
 #main > table.tweak.fw > tbody > tr:nth-child(1) { background-color: var(--table-cell-border-color); } */
-.markdown-section .tweak.fw td:nth-child(1) { width: 70%; }
-.markdown-section .tweak.fw td:nth-child(2) { width: 30%; text-align: left; border-left: 1px solid var(--table-cell-border-color); border-right: 1px solid var(--table-cell-border-color); }
-.markdown-section .tweak.fw td:nth-child(3) { width: 10%; text-align: center; }
+.markdown-section .tweak.fw tr { width: 100%; text-align: left; }
+.markdown-section .tweak.fw td{ width: 33%; }
+.markdown-section .tweak.fw td:not(:first-child):not(:last-child) { border-left: 1px solid var(--table-cell-border-color); }
+.markdown-section .tweak.fw td:last-child { border-left: 1px solid var(--table-cell-border-color); }
 .markdown-section .tweak { padding-bottom: 3em; }
 /* #main > table.tweak.fw > tbody > tr:last-child { border-bottom: 2px dashed var(--table-cell-border-color); } */
 
 
-#main > pre { left: 2em; }
+#main > pre { }
 /* #main > p { left: 11em; } */
 
 
@@ -123,3 +131,7 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 
 
 .cover-main h1 span { font-family:var(--code-font-family) }
+
+
+
+.example { margin-left: 10px; margin-right: 5px; }

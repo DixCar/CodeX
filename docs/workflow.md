@@ -79,23 +79,27 @@ Also, use examples of sub-folders below to logically segregate type of files
   <tbody>
     <tr>
       <td style="text-align:left">`HTML`</td>
-      <td style="text-align:left">To keep all HTML files</td>
+      <td style="text-align:left">latest version of HTML files</td>
     </tr>
     <tr>
       <td style="text-align:left">`HTML/img`</td>
-      <td style="text-align:left">All images such PNG, JPG, GIF used on email</td>
+      <td style="text-align:left">all images (PNG/JPG/GIF) used on email</td>
     </tr>
     <tr>
       <td style="text-align:left">`HTML/do-not-use`</td>
-      <td style="text-align:left">Scraped versions of email</td>
+      <td style="text-align:left">scraped versions of email</td>
     </tr>
     <tr>
       <td style="text-align:left">`docs`</td>
-      <td style="text-align:left">Briefs, amends and other documentation</td>
+      <td style="text-align:left">briefs, amends and other documentation</td>
     </tr>
     <tr>
       <td style="text-align:left">`assets`</td>
-      <td style="text-align:left">All additional files</td>
+      <td style="text-align:left">guides (toolkit) and additional files from supplier funders, websites etc.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">`creative`</td>
+      <td style="text-align:left">layered, editable source files (PSD, TIF, AI, EPS, SVG)</td>
     </tr>
   </tbody>
 </table>

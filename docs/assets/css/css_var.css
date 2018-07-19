@@ -112,10 +112,13 @@ body .docsify-copy-code-button, body .docsify-copy-code-button::after { backgrou
 
 #main > table.tweak > thead:nth-child(2) { background-color: var(--table-cell-border-color); }
 
+
+
 /* #main > .tweak > tbody > tr:nth-child(1) > td > strong { color: var(--mono-shade2) }
 #main > table.tweak.fw > tbody > tr:nth-child(1) { background-color: var(--table-cell-border-color); } */
-.markdown-section .tweak.fw tr { width: 100%; text-align: left; }
-.markdown-section .tweak.fw td{ width: 33%; }
+.fw, .fw thead, .fw tbody, .fw tr { width: 100%; text-align: right !important; }
+.markdown-section .tweak.fw
+.markdown-section .tweak.fw td { width: 100% !important; }
 .markdown-section .tweak.fw td:not(:first-child):not(:last-child) { border-left: 1px solid var(--table-cell-border-color); }
 .markdown-section .tweak.fw td:last-child { border-left: 1px solid var(--table-cell-border-color); }
 .markdown-section .tweak { padding-bottom: 3em; }

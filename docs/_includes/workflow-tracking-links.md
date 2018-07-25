@@ -1,38 +1,50 @@
-### Currys and PCWorld
-
-
-Both are using the same parts to create tracking code.
-
 ### Example of tracking part
 
 ``` HTML
-<a href="https://www.currys.co.uk/xxxx/?<%@ include view='dixDIXtrackingCPCW1' %>~COM~TVN~3NOM1~<%@ include view='dixDIXtrackingCPCW2' %>" _label="3NOM1">
+<!-- Currys -->
+<a href="https://www.currys.co.uk/abc/xyz/page-name.html?<%@ include view='dixDIXtrackingCPCW1' %>~PageType~Category~Module~<%@ include view='dixDIXtrackingCPCW2' %>" _label="Module_Category">
 
-<a href="https://www.pcworld.co.uk/xxx/?<%@ include view='dixDIXtrackingCPCW1' %>~SEG~LAP~1BNR2~<%@ include view='dixDIXtrackingCPCW2' %>" _label="1BNR2">
+<!-- PCWorld -->
+<a href="https://www.pcworld.co.uk/abc/xyz/?<%@ include view='dixDIXtrackingCPCW1' %>~PageType~Category~Module~<%@ include view='dixDIXtrackingCPCW2' %>" _label="Module_Category">
+
+<!-- PCWBusiness -->
+<a href="https://www.pcworldbusiness.co.uk/abc/?utm_campaign=<%= CampaignName %>&utm_medium=email&utm_source=PCWB_wk<%= targetData.WeekNo %>&utm_term=<%= message.delivery.id %>&utm_content=Module_Category" _label="Module_Category">
 ```
+i> Most part of tracking for both Currys and PCWorld have been setup as [Personalization Blocks](#) to use as `Includes` within Adobe Campaign.
+
 
 ### How to edit?
 
-**`href="https://www.currys.co.uk/xxxx/"`** if is available always use SSL `https` and make sure is no `empty space` between `link` and `?`
+`https://www.currys.co.uk/abc/xyz/page-name.html?`
 
-**`~COM~TVN~3NOM1~`** contains 3 parts; `page type`, `category`, `module` and each part is separated by `~`
+p> Always, when it's possible use `https` (SSL) and make sure is no `empty space` between `your-link` and `?`
 
-> Please follow [Tags](tracking_links?id=tags) link to sidebar.md section to see available tags.
+<br>
 
-**`_label="3NOM1"`** as above update it to follow your type of `module`
+`<%@ include view='dixDIXtrackingCPCW1' %>` and `<%@ include view='dixDIXtrackingCPCW2' %>`
 
-**`<%@ include view='dixDIXtrackingCPCW1' %>`** and **`<%@ include view='dixDIXtrackingCPCW2' %>`** are parts of tracking populated by [Personalization Blocks](personalization_block) on Adobe Campaign
+i> Two parts of tracking populated by [Personalization Blocks](#) on Adobe Campaign
+
+<br>
+
+`~PageType~Category~Module~`
+
+i> Three elements divided by `~` and have to be updated manually; follow [Tags](workflow?id=tags) section to update it correctly.
+
+<br>
+
+`_label="Module_Category"` —and/or— `&utm_content=Module_Category"`
+
+i> Two elements divided by `_` and have to be updated manually; follow [Tags](workflow?id=tags) section to update it correctly.
 
 
-### PCWBusiness
 
-``` HTML
-<a href="https://www.xxx.co.uk/xxx/?utm_campaign=<%= CampaignName %>&utm_medium=email&utm_source=PCWB_wk<%= targetData.WeekNo %>&utm_term=<%= message.delivery.id %>&utm_content=1BNR1_OTH" _label="1BNR1_OTH">
-```
 
 ### Tags
 
+Tags are used to create trackable links. They are split to three categories: [Page Type ](workflow?id=Page-Type), [Category](workflow?id=Category) and [Module](workflow?id=Module)
 
+#### Page Type
 <table class="tweak fw">
   <thead>
     <tr>
@@ -90,7 +102,7 @@ Both are using the same parts to create tracking code.
 </table>
 
 <br>
-
+#### Category
 <table class="tweak fw">
   <thead>
     <tr>
@@ -245,7 +257,7 @@ Both are using the same parts to create tracking code.
 </table>
 
 <br>
-
+#### Module
 <table class="tweak fw">
   <thead>
     <tr>

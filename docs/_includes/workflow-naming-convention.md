@@ -3,7 +3,7 @@
 YYYYMMDD_wkXX_Campaign_SpecialistInitials
 ```
 ##### Example:
-<i class="far fa-fw fa-folder example"></i> `wk09_20180122_ACT_PP`
+<i class="far fa-fw fa-folder example"></i> wk09_20180122_ACT_PP
 ``` Subfolders
 wk09_20180122_ACT_PP/       — campaign folder (root)
    ├── assets/              — guides (toolkit) and additional files from supplier funders, websites etc.
@@ -22,7 +22,7 @@ YYYYMMDD_wkXX_Chain_Campaign_SpecialistInitials_Version.html
 ```
 
 ##### Example:
-<i class="far fa-fw fa-file-code example"></i> `wk08_20180122_Currys_ACT_PP_V6.html`
+<i class="far fa-fw fa-file-code example"></i> wk08_20180122_Currys_ACT_PP_V6.html
 
 <br>
 
@@ -69,7 +69,7 @@ Category_Brand_Model_SKU_ImageNumber.png
 ```
 ##### Example:
 
-<i class="far fa-file-image"></i> `TVN_ACER_S271HLCBID_046529_01.png`
+<i class="far fa-file-image"></i> TVN_ACER_S271HLCBID_046529_01.png
 
 <br>
 
@@ -104,4 +104,4 @@ Category_Brand_Model_SKU_ImageNumber.png
   </tbody>
 </table>
 
-s> Don't forget upload all your cut-out files to Gmial Drive of our 'dsg testing' account. If you don't have access to 'dsg testing' account ask your manager to help.
+s> Don't forget to upload all your cut-out SKU's images to Gmial Drive of our 'dsg testing' account. If you don't have access to 'dsg testing' account ask your manager to help.

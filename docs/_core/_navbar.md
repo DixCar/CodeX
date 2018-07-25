@@ -1,4 +1,4 @@
-* [![Current version](https://img.shields.io/badge/V-2.5-E51639.svg?longCache=true&style=for-the-badge)](#)
+* [![Current version](https://img.shields.io/badge/V-2.7-E51639.svg?longCache=true&style=for-the-badge)](#)
 * Source
  * [<i class="fas fa-fw fa-cloud-download-alt"></i> SharePoint](https://dixonsretail.sharepoint.com/sites/emailcrm/Shared%20Documents/_Assets/__Templates/Adobe%20Campaign/Master%20Template?csf=1 'download')
  * [<i class="fas fa-fw fa-code-branch"></i> BitBucket](https://bitbucket.org/dixonscarphone/master-templates/src 'download')

@@ -1,17 +1,22 @@
-Use below guides to stick to the process and keep your work smart, clean and consistent.
+Section describe our work process.
+
+<br>
 
 ## Naming Convention
-Follow below guidance to naming your campaign files and folders properly. Don't use special characters or empty spaces.
+Follow below guidance to naming your campaign files and folders properly.
 
+s> Don't use special characters or empty spaces to name root folder or HTML files
+
+<br>
 
 ### Campaign Folder
 ``` Folder
 YYYYMMDD_wkXX_Campaign_SpecialistInitials
 ```
-###### Example:
-<i class="far fa-fw fa-folder example"></i> wk09_20180122_ACT_PP
+##### Example:
+<i class="far fa-fw fa-folder example"></i> `wk09_20180122_ACT_PP`
 ``` Subfolders
-wk09_20180122_ACT_PP/       — campaign folder
+wk09_20180122_ACT_PP/       — campaign folder (root)
    ├── assets/              — guides (toolkit) and additional files from supplier funders, websites etc.
    ├── creative/            — layered, editable source files (PSD, TIF, AI, EPS, SVG)
    ├── docs/                — briefs, amends and other documentation
@@ -20,15 +25,17 @@ wk09_20180122_ACT_PP/       — campaign folder
         └── do-not-use/     — scraped versions of email
 ```
 
+<br>
 
 ### Campaign HTML File
 ``` File
-YYYYMMDD_wkXX_Chain_Campaign_SpecialistInitials_Version
+YYYYMMDD_wkXX_Chain_Campaign_SpecialistInitials_Version.html
 ```
 
-###### Example:
-<i class="far fa-fw fa-file-code example"></i> wk08_20180122_Currys_ACT_PP_V6.html
+##### Example:
+<i class="far fa-fw fa-file-code example"></i> `wk08_20180122_Currys_ACT_PP_V6.html`
 
+<br>
 
 ##### Legend:
 <table class="tweak fw">
@@ -67,7 +74,7 @@ YYYYMMDD_wkXX_Chain_Campaign_SpecialistInitials_Version
 </table>
 
 
-Also, use examples of sub-folders below to logically segregate type of files
+<!-- Also, use examples of sub-folders below to logically segregate type of files
 
 <table class="tweak fw">
   <thead>
@@ -102,13 +109,7 @@ Also, use examples of sub-folders below to logically segregate type of files
       <td style="text-align:left">layered, editable source files (PSD, TIF, AI, EPS, SVG)</td>
     </tr>
   </tbody>
-</table>
-
-
-
-- - -
-
-
+</table> -->
 
 ### Assets Library
 
@@ -153,9 +154,9 @@ Please follow guide below to name your cut-out SKU images correct and remember t
 </table>
 
 
-###### Example:
+##### Example:
 
-<i class="far fa-file-image"></i> TVN_ACER_S271HLCBID_046529_01.png
+<i class="far fa-file-image"></i> `TVN_ACER_S271HLCBID_046529_01.png`
 
 
 
@@ -172,7 +173,7 @@ Please follow guidance below to keep the links trackable. Bear in mind the links
 
 
 
-### `Currys` and `PCWorld`
+### Currys and PCWorld
 
 Both are use same parts to create tracking code.
 
@@ -201,7 +202,7 @@ Both are use same parts to create tracking code.
 
 
 
-### `PCWBusiness`
+### PCWBusiness
 
 ``` HTML
 <a href="https://www.xxx.co.uk/xxx/?utm_campaign=<%= CampaignName %>&utm_medium=email&utm_source=PCWB_wk<%= targetData.WeekNo %>&utm_term=<%= message.delivery.id %>&utm_content=1BNR1_OTH" _label="1BNR1_OTH">
@@ -209,7 +210,6 @@ Both are use same parts to create tracking code.
 
 ### Tags
 
-##### Use below with `Currys` `PCWorld` `PCWBusiness`
 
 <table class="tweak fw">
   <thead>
@@ -253,6 +253,7 @@ Both are use same parts to create tracking code.
     <tr>
       <td>`CON`</td>
       <td>Content Page</td>
+      <td>xxx-theme.html</td>
     </tr>
     <tr>
       <td>`STO`</td>
@@ -265,6 +266,8 @@ Both are use same parts to create tracking code.
     </tr>
   </tbody>
 </table>
+
+<br>
 
 <table class="tweak fw">
   <thead>
@@ -419,6 +422,8 @@ Both are use same parts to create tracking code.
   </tbody>
 </table>
 
+<br>
+
 <table class="tweak fw">
   <thead>
     <tr>
@@ -520,11 +525,23 @@ Both are use same parts to create tracking code.
 
 ## Quality Assurance
 
-Before you send request for QA please, make sure all below steps have been done:
+### Self QA
 
+* Inspect your code in real-time to eliminate potential errors
+* Indent your code to make it easy to read <!-- [Dreamweaver setup for indentation](#) -->
+* Test in browser rendering for all breakpoints/liquidity
+* Send Litmus test and check the result
+* Test for real-devices (DSG testing emails)
+* If deviating from Master Templates test your experimental code on devices as well on litmus
 
-* QA your code real-time to eliminate potential errors
-* Indent your code to make it easy to read [Dreamweaver setup for indentation](#)
-* Browser test to check rendering for breakpoints, links and text
-* Litmus test must be checked
-* Send QA and include all information and files
+### Team QA
+
+* Include all information and files to your request:
+  * Litmus test (share link)
+  * Indented HTML file (include Proof/Test sent from AC)
+  * Subject Line and Pre-Header
+  * Additional information about data, dynamics, includes
+* Split the QA task for three stages:
+  * Tracking Links and Copy/Typos
+  * Code review
+  * Visual rendering

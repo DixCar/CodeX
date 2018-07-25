@@ -3,7 +3,7 @@
 <table class="tweak active fw">
   <thead>
     <tr>
-      <th class="version">Version `2.5` 08.06.2018</th>
+      <th class="version">Version `2.7` 08.06.2018</th>
     </tr>
   </thead>
   <thead>
@@ -38,6 +38,43 @@
 </table>
 
 ### Archived
+
+<table class="tweak archive fw">
+  <thead>
+    <tr>
+      <th class="version">Version `2.5` 08.06.2018</th>
+    </tr>
+  </thead>
+  <thead>
+  <tr>
+    <td>**Changes**</td>
+    <td>**Comments**</td>
+    <td>**Type**</td>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><!--[goto](/download?id=skeleton-framework)-->**PersonalizationBlock** injecting *GDPR Terms & Conditions*</td>
+      <td>Unique for each: `Currys` `PCW` `PCWB`</td>
+      <td><i class="fas fa-fw fa-exclamation"></i></td>
+    </tr>
+    <tr>
+      <td>**PersonalizationBlock** injecting *Core CSS*</td>
+      <td>Unique for each: `All templates`</td>
+      <td><i class="fas fa-fw fa-exclamation"></i></td>
+    </tr>
+    <tr>
+      <td>**PersonalizationBlock** injecting *ReturnPath tracking pixel*</td>
+      <td>Same for both: `Currys` `PCW`</td>
+      <td><i class="fas fa-fw fa-exclamation"></i></td>
+    </tr>
+    <tr>
+      <td>**Shop Your Way** - fix center alignment</td>
+      <td>Same for both: `Currys` `PCW`</td>
+      <td><i class="fas fa-fw fa-broom"></i></td>
+    </tr>
+  </tbody>
+</table>
 
 <table class="tweak archive fw">
   <thead>

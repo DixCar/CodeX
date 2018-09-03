@@ -1,5 +1,12 @@
 ## Latest update
 
+<!-- Icons
+<i class="fas fa-fw fa-exclamation"></i> IMPORTANT
+<i class="fas fa-fw fa-bug"></i> BUG
+<i class="fas fa-fw fa-wrench"></i> IMPROVEMENT
+<i class="fas fa-fw fa-broom"></i> MAINTENANCE
+-->
+
 <table class="tweak active fw">
   <thead>
     <tr>

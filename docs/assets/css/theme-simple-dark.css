@@ -390,7 +390,7 @@ color:var(--search-input-placeholder-color, gray)
 --pre-font-size: var(--code-font-size);
 --selection-color: rgba(11, 135, 218, 0.15);
 --small-font-size: var(--font-size-s);
---strong-color: var(--heading-color);
+/* --strong-color: var(--heading-color); */
 --strong-font-weight: 600;
 --subsup-font-size: var(--font-size-s)
 }

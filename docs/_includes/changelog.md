@@ -3,6 +3,35 @@
 <table class="tweak active fw">
   <thead>
     <tr>
+      <th class="version">Version `2.8` 01.08.2018</th>
+    </tr>
+  </thead>
+  <thead>
+  <tr>
+    <td>**Changes**</td>
+    <td>**Comments**</td>
+    <td>**Type**</td>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Added bespoke code CSS in along with section as a whole, seems this build was from Currys. Bespoke CSS is for line-height which allows the finger press to exist on all devices through the use of retaining the font-size, then on stacking the min finger press is 44px on single row, with word wrap is more but consistent.</td>
+      <td>Unique for: `PCWB`</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
+    </tr>
+    <tr>
+      <td>Updated TH section for **Shop your way** follows BAU Currys structure method of 33% 2x stack Also added class to allow db to be used as well as dB :.dB, .db { display: block!important; } CSS needs tidying. Thinking of doing as separate branch as that is a big job, would need to refer to older BitBucket to get cleaner version of CSS as a starting point maybe.</td>
+      <td>Unique for each: `PCWB`</td>
+      <td><i class="fas fa-fw fa-wrench"></i></td>
+    </tr>
+  </tbody>
+</table>
+
+### Archived
+
+<table class="tweak archive fw">
+  <thead>
+    <tr>
       <th class="version">Version `2.7` 08.06.2018</th>
     </tr>
   </thead>
@@ -36,8 +65,6 @@
     </tr>
   </tbody>
 </table>
-
-### Archived
 
 <table class="tweak archive fw">
   <thead>

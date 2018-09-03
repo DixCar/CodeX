@@ -2,6 +2,7 @@
 - [Download Templates](quickstart.md)
 - [Change Log](changelog.md)
 - [Workflow](workflow.md)
+- **<i class="fas fa-link"></i> Initial Setup**
+- [WebTools](markdown.md)
 - **<i class="fas fa-terminal"></i> Initial Setup**
 - [Markdown](markdown.md)
-- [Change Log](changelogaaaaa.md)

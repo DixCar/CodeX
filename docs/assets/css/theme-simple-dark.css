@@ -509,7 +509,7 @@ color:var(--search-input-placeholder-color, gray)
 --sidebar-border-width: 0;
 --sidebar-padding: 0 0;
 --sidebar-transition-duration: var(--duration-fast);
---sidebar-width: 17rem;
+--sidebar-width: 18rem;
 --sidebar-name-font-size: var(--font-size-l);
 --sidebar-name-margin: 1.5rem 0 0;
 --sidebar-name-text-align: center;

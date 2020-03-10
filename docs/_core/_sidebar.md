@@ -7,6 +7,6 @@
 - **<i class="fas fa-terminal"></i> Initial Setup**
 - [Markdown](markdown.md)
 - **<i class="fas fa-java"></i> Java Script**
-- [JS Snippets](jssnippets.md)
+- [JS Snippets](java-script.md)
 - **<i class="fas fa-graduation-cap"></i> Tutorials**
 - [Photoshop](tutorials-photoshop.md)
